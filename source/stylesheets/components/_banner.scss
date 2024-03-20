@@ -1,6 +1,5 @@
 .banner {
-  height: 60vh;
-  border: 2px solid red;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -8,17 +7,16 @@
 }
 
 .hero1 {
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
   height: 80%;
   width: 45%;
+  margin-top: 3rem;
 }
 
 .hero2 {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +26,7 @@
 }
 
 .hero-photo {
-  height: 90%;
+  height: 70%;
   border-radius: 50%;
 }
 
@@ -46,4 +44,26 @@
   color: black;
   font-size: x-large;
   margin-right: 0.5rem;
+}
+
+@media (max-width: 700px){
+  .banner {
+    flex-direction: column;
+  }
+  .hero1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero2 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+  .collage-photo {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
 }
