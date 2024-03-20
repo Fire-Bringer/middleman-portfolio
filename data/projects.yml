@@ -1,34 +1,13 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Friends 4 Benefits
+  description: A social app which helps people find new friends through mutual hobbies
+  image: projects/f4b_homepage.png
+  url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
+  github: https://github.com/HappyDay101/Friends-4-Benefits
   online: true
 
 - name: UQ - Your Intelligence
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+  description: An education app which helps students learn through differentiated learning and AI assistance
+  image: projects/uq_homepage.png
+  url: https://www.uqedu.org
+  github: https://github.com/Fire-Bringer/UQ
   online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
