@@ -1,5 +1,5 @@
 .banner {
-  height: 30vh;
+  height: 60vh;
   border: 2px solid red;
   display: flex;
   flex-direction: row;
@@ -33,6 +33,17 @@
 }
 
 .collage-photo {
-  height: 90%;
+  width: 100%;
   border-radius: 1rem;
+}
+
+.about-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.fab {
+  color: black;
+  font-size: x-large;
+  margin-right: 0.5rem;
 }
