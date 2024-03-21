@@ -1,4 +1,4 @@
-.n-container {
+.navigation-bar {
   margin: 0;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
 }
 
 .icon-photo {
-  width: 3rem;
+  width: 2rem;
   height: 100%;
   border-radius: 50%;
 }
@@ -29,8 +29,8 @@ nav ul li {
   list-style: none;
   color: #000000;
   display: inline;
-  padding: 10px 30px;
-  font-size: 19px;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.2rem;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -68,4 +68,34 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+@media (max-width: 500px){
+  .icon-photo {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 460px){
+  nav ul li {
+    padding: 0.5rem 1.3rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px){
+  nav ul li {
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 330px){
+  nav ul li {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
 }
