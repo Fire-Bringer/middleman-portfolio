@@ -15,6 +15,7 @@
 nav {
   padding: 1.5rem 1.5rem;
   width: 100%;
+  background-color: black;
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav ul li {
 
 nav ul li::after {
   content: '';
-  background: #06081a;
+  background: white;
   height: 100%;
   width: 100%;
   border-radius: 30px;
@@ -62,12 +63,12 @@ nav ul li:hover::after {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 500px){
