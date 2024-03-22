@@ -1,33 +1,51 @@
-.banner {
+.hero {
   height: 70vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.hero-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  height: 80%;
-  width: 45%;
-  margin-top: 3rem;
+  border: 2px solid black;
 }
 
 .hero-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: end;
+  height: 80%;
+  width: 45%;
+  border: 2px solid blue;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: start;
   height: 80%;
   width: 45%;
+  margin-top: 3rem;
+  border: 2px solid red;
 }
 
 .hero-photo {
-  height: 70%;
+  width: 70%;
   border-radius: 50%;
+}
+
+@media (max-width: 1200px){
+  .hero-photo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 995px){
+  .hero {
+    height: 60vh;
+  }
+  .hero-photo {
+    width: 80%;
+  }
 }
 
 @media (max-width: 700px){
@@ -46,8 +64,21 @@
     margin-top: -1rem;
     margin-bottom: 1rem;
   }
+  .hero-photo {
+    height: 50%;
+  }
   .collage-photo {
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 340px){
+  .hero-photo {
+    width: 90%;
+    height: 90%;
+  }
+  .hero-header {
+    margin-top: -2rem;
   }
 }
