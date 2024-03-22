@@ -1,8 +1,7 @@
 .about {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  height: 100vh;
 }
 
 .about-img {
@@ -11,9 +10,8 @@
   justify-content: center;
   align-items: start;
   height: 100%;
-  width: 45%;
+  width: 50%;
   padding-left: 1.5rem;
-  border: 2px solid red;
 }
 
 .about-text {
@@ -22,25 +20,24 @@
   justify-content: center;
   align-items: end;
   height: 100%;
-  width: 45%;
+  width: 50%;
   padding-right: 1.5rem;
-  border: 2px solid blue;
 }
 
 .about-textbox {
-  border: 2px solid green;
-  width: 80%;
+  width: 70%;
 }
 
 .about-details {
   text-align: end;
   font-size: 0.9rem;
+  line-height: 1.8rem;
 }
 
 .collage-box {
   border-radius: 1rem;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
-  width: 75%;
+  width: 60%;
 }
 
 .collage-primary {
@@ -77,7 +74,7 @@
 }
 
 @media (max-width: 700px){
-  .about-img {
+  .about {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -86,11 +83,27 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-top: -1rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+  }
+  .about-details {
+    text-align: center;
   }
   .collage-photo {
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+  .about-textbox {
+    width: 100%;
+  }
+  .about-me {
+    padding-top: 4rem;
+  }
+  .about-img {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    padding-top: 1.5rem;
   }
 }
