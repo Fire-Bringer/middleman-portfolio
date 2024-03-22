@@ -1,25 +1,65 @@
+.about {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
 .about-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
-  height: 80%;
-  width: 45%;
-  margin-top: 3rem;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  border: 2px solid red;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  height: 80%;
-  width: 45%;
+  align-items: end;
+  height: 100%;
+  width: 50%;
+  border: 2px solid blue;
 }
 
-.collage-photo {
-  width: 100%;
+.about-textbox {
+  border: 2px solid green;
+  width: 80%;
+}
+
+.about-details {
+  text-align: end;
+  font-size: 1.2em;
+}
+
+.collage-box {
   border-radius: 1rem;
+  box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
+  width: 75%;
+}
+
+.collage-primary {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.secondary-collage {
+  display: flex;
+  flex-direction: row;
+}
+
+.collage-secondary1 {
+  width: 50%;
+  border-bottom-left-radius: 1rem;
+}
+
+.collage-secondary2 {
+  width: 50%;
+  border-bottom-right-radius: 1rem;
 }
 
 .about-links {

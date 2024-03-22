@@ -1,19 +1,27 @@
-<div class="banner" id="about">
-  <div class="about-img">
-    <%= image_tag 'pitch.jpg', alt: "profile photo", class: 'collage-photo' %>
-  </div>
+<div class="about" id="about">
   <div class="about-text">
-    <h3>About Me</h3>
-    <p>I'm Rashad, a former English teacher with years of experience as a live music event organizer. Being able to help both students and musicians in ways to grow towards their own potential has always been a great motivator in my work.
-    <br>
-    <br>
-    I now have the same joy helping family and friends with the UX of their businesses.
-    <br>
-    <br>
-    When not working I enjoy playing sports, games, traveling and doing musical activities such as hosting and DJing.</p>
+    <h2>About Me</h2>
+    <div class="about-textbox">
+      <p class="about-details">I'm Rashad, a freelance dev with years of experience connecting with new people around the world.
+      <br>
+      <br>
+      Since my days as a school teacher, I have always loved getting to know new people and finding ways to help them out where I can.
+      <br>
+      <br>
+      When not working I enjoy playing sports, games, traveling and hosting music events while Djing.</p>
+    </div>
     <div class="about-links">
       <a href="https://www.instagram.com/barret_wallace/"><i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/rashaddupaty/"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+    <div class="about-img">
+    <div class="collage-box">
+        <%= image_tag 'pitch.jpg', alt: "profile photo", class: 'collage-primary' %>
+        <div class="secondary-collage">
+          <%= image_tag 'dj.jpg', alt: "profile photo", class: 'collage-secondary1' %>
+          <%= image_tag 'listen.jpg', alt: "profile photo", class: 'collage-secondary2' %>
+        </div>
     </div>
   </div>
 </div>
