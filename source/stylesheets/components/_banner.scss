@@ -124,11 +124,23 @@ p {
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
+  .hero {
+    height: 60vh;
+  }
   .hero-img {
     height: 60%;
   }
   .hero-header {
     height: 40%;
+  }
+  .name {
+    font-size: 5vw;
+  }
+  .title {
+    font-size: 4vw;
+  }
+  .main-skills {
+    font-size: 3vw;
   }
 }
