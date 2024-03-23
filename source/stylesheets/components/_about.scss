@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   height: 70vh;
-  border: 2px solid black;
 }
 
 .about-img {
@@ -13,7 +12,6 @@
   height: 100%;
   width: 50%;
   padding-left: 1.5rem;
-  border: 2px solid red;
 }
 
 .about-text {
@@ -24,12 +22,10 @@
   height: 100%;
   width: 50%;
   padding-right: 1.5rem;
-  border: 2px solid blue;
 }
 
 .about-textbox {
   width: 70%;
-  border: 2px solid green;
 }
 
 .about-details {
@@ -105,7 +101,7 @@
 @media (max-width: 700px){
   .about {
     width: 100%;
-    height: 100vh;
+    height: 50rem;
     flex-direction: column;
     align-items: center;
   }
@@ -118,11 +114,11 @@
     padding-right: 0;
   }
   .about-me {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
   }
   .about-details {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .collage-box {
     width: 90%;
@@ -142,9 +138,6 @@
   }
   .about-text {
     height: 50%;
-  }
-  .fab {
-    font-size: x-large;
   }
   .about-textbox {
     width: 80%;
