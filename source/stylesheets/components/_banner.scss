@@ -17,17 +17,39 @@
 .hero-header {
   width: 100%;
   border: 2px solid red;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 2rem 3fr 1fr;
+}
+
+.hero-img-container {
+  border: 2px solid yellow;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .hero-photo {
+  width: 90%;
   border-radius: 50%;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
+}
+
+.hero-content {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .fab {
   padding-right: 0.5rem;
+  padding-top: 1rem;
 }
 
 p {
