@@ -85,24 +85,24 @@ p {
 
 @media (max-width: 700px){
   .hero {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .hero-img {
     width: 100%;
-    height: 70%;
+    height: 50%;
     display: flex;
   }
 
   .hero-header {
-    height: 30%;
+    height: 50%;
     display: flex;
 
   }
   .hero-photo {
-    width: 70%;
-  }
+    width: 50%;
+}
   .hero-content {
     width: 100%;
     text-align: center;
@@ -113,13 +113,13 @@ p {
     justify-content: center;
   }
   .name {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .title {
-    font-size: 5vw;
+    font-size: 3vw;
   }
   .main-skills {
-    font-size: 3.5vw;
+    font-size: 2vw;
     color: grey;
   }
 }
