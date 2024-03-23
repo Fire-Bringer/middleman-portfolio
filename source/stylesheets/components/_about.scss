@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 70vh;
+  border: 2px solid black;
 }
 
 .about-img {
@@ -101,9 +102,10 @@
 @media (max-width: 700px){
   .about {
     width: 100%;
-    height: 50rem;
+    height: 120vh;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
   }
   .about-text {
     width: 100%;
@@ -118,7 +120,7 @@
   }
   .about-details {
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.1vw;
   }
   .collage-box {
     width: 90%;
