@@ -1,29 +1,35 @@
 .hero {
   height: 70vh;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border: 2px solid black;
 }
 
 .hero-img {
-  width: 100%;
-  border: 2px solid blue;
-  display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
-  grid-template-columns: 1fr 3fr 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 80%;
+  width: 50%;
+  padding-right: 4rem;
 }
 
 .hero-header {
-  width: 100%;
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 80%;
+  width: 50%;
 }
 
 .hero-photo {
+  max-width: 60%;
   border-radius: 50%;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
 }
 
 .fab {
