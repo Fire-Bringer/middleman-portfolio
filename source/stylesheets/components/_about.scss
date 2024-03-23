@@ -29,6 +29,7 @@
 
 .about-textbox {
   width: 70%;
+  border: 2px solid green;
 }
 
 .about-details {
@@ -116,8 +117,12 @@
     margin-bottom: 0;
     padding-right: 0;
   }
+  .about-me {
+    font-size: 4.5vw;
+  }
   .about-details {
     text-align: center;
+    font-size: 2.5vw;
   }
   .collage-box {
     width: 90%;
@@ -137,5 +142,11 @@
   }
   .about-text {
     height: 50%;
+  }
+  .fab {
+    font-size: x-large;
+  }
+  .about-textbox {
+    width: 80%;
   }
 }
