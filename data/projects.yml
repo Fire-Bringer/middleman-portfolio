@@ -1,4 +1,5 @@
 - name: Friends 4 Benefits
+  role: Project Manager / Fullstack Developer
   description: A social app which helps people find new friends through mutual hobbies
   image: projects/f4b_homepage.png
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
@@ -12,6 +13,7 @@
   figma: true
 
 - name: UQ - Your Intelligence
+  role: Project Manager / Fullstack Developer
   description: An education app which helps students learn through differentiated learning and AI assistance
   image: projects/uq_homepage.png
   url: https://www.uqedu.org

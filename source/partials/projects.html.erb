@@ -13,6 +13,7 @@
           <div class="project-text-container">
             <div class="project-content">
               <h2 class="project-name"><%= project.name %></h2>
+              <h3 class="project-role"><strong>Role:</strong> <%= project.role %></h3>
               <div class="project-text-box">
                 <p class="project-details"><%= project.description %></p>
               </div>
@@ -34,6 +35,17 @@
                 <% end %>
                 <% if project.figma? %>
                   <i class="devicon-figma-plain tech"></i>
+                <% end %>
+              </div>
+              <div class="project-links">
+                <i class="fa-solid fa-circle-info project-link"></i>
+                <% link_to project.github, target: '_blank' do %>
+                  <i class="fa-brands fa-github project-link"></i>
+                <% end %>
+                <% if project.online? %>
+                  <% link_to project.url, class: 'globe', target: '_blank' do %>
+                    <i class="fa-solid fa-globe project-link"></i>
+                  <% end %>
                 <% end %>
               </div>
 
