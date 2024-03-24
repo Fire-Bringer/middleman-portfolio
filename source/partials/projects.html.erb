@@ -16,6 +16,28 @@
               <div class="project-text-box">
                 <p class="project-details"><%= project.description %></p>
               </div>
+              <div class="tech-stack">
+                <% if project.rails? %>
+                  <i class="devicon-rails-plain-wordmark tech"></i>
+                <% end %>
+                <% if project.html? %>
+                  <i class="devicon-html5-plain-wordmark tech"></i>
+                <% end %>
+                <% if project.css? %>
+                  <i class="devicon-css3-plain-wordmark tech"></i>
+                <% end %>
+                <% if project.javascript? %>
+                  <i class="devicon-javascript-plain tech"></i>
+                <% end %>
+                <% if project.sql? %>
+                  <i class="devicon-azuresqldatabase-plain tech"></i>
+                <% end %>
+                <% if project.figma? %>
+                  <i class="devicon-figma-plain tech"></i>
+                <% end %>
+              </div>
+
+<!--
               <div class="project-links">
                 <% link_to project.github, class: 'external-link', target: '_blank' do %>
                   <i class="fa-brands fa-github pro-link"></i>
@@ -26,6 +48,10 @@
                   <% end %>
                 <% end %>
               </div>
+-->
+
+
+
             </div>
           </div>
         </div>
