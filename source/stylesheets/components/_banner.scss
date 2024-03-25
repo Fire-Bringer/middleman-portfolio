@@ -58,12 +58,26 @@
   color: grey;
 }
 
-.fab {
-  padding-top: 1rem;
-}
-
 p {
   margin-bottom: 0;
+}
+
+.hero-link {
+  color: black;
+  font-size: 2.5rem;
+  margin-right: 0.5em;
+  margin-top: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 17, 166, 0.391);
+  border-radius: 0.25rem;
+  &:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    color: rgba(218, 48, 165, 0.984);
+  }
+
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 }
 
 @media (max-width: 1024px){
