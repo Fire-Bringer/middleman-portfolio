@@ -3,11 +3,40 @@
     <h2 class="text-center pt-5 p-title"><u>PROJECTS</u></h2>
     <div class="cards d-flex flex-column">
       <% data.projects.each do |project| %>
-
         <div class="projects">
           <div class="project-img-container">
             <div class="project-img">
-              <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+
+              <!--Project Carousels-->
+              <div id="<%= project.id.to_s%>" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
             </div>
           </div>
           <div class="project-text-container">
@@ -48,26 +77,9 @@
                   <% end %>
                 <% end %>
               </div>
-
-<!--
-              <div class="project-links">
-                <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                  <i class="fa-brands fa-github pro-link"></i>
-                <% end %>
-                <% if project.online?  %>
-                  <% link_to project.url, class: 'external-link pro-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
-                  <% end %>
-                <% end %>
-              </div>
--->
-
-
-
             </div>
           </div>
         </div>
-
       <% end %>
     </div>
   </div>
