@@ -1,5 +1,4 @@
 .projects {
-  border: 2px solid black;
   height: 50vh;
   display: grid;
   grid-template-rows: 100%;
@@ -7,7 +6,6 @@
 }
 
 .project-img-container {
-  border: 2px solid blue;
   width: 100%;
   display: grid;
   grid-template-rows: 2rem 4fr 2rem;
@@ -15,7 +13,6 @@
 }
 
 .project-text-container {
-  border: 2px solid red;
   width: 100%;
   display: grid;
   grid-template-rows: 2rem 4fr 2rem;
