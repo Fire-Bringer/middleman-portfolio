@@ -1,5 +1,5 @@
 .about {
-  height: 70vh;
+  height: 35vh;
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -9,7 +9,7 @@
 .about-img {
   width: 100%;
   display: grid;
-  grid-template-rows: 2fr 4fr 2fr;
+  grid-template-rows: 1rem 4fr 2fr;
   grid-template-columns: 2rem 3fr 1fr;
   border: 2px solid blue;
 }
@@ -17,7 +17,7 @@
 .about-text-container {
   width: 100%;
   display: grid;
-  grid-template-rows: 2fr 4fr 2fr;
+  grid-template-rows: 1rem 4fr 2fr;
   grid-template-columns: 1fr 3fr 2rem;
   border: 2px solid red;
 }
@@ -28,7 +28,7 @@
 }
 
 .about-me {
-  text-align: end;
+  text-align: center;
 }
 
 .about-links {
@@ -38,7 +38,7 @@
 
 .about-details {
   text-align: end;
-  font-size: 1.3vw;
+  font-size: 0.8vw;
   line-height: 1.5em;
 }
 
@@ -46,9 +46,10 @@
   border-radius: 1rem;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
   width: 95%;
-  height: 95%;
+  height: 25%;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+
 }
 
 .collage-primary {
@@ -85,21 +86,7 @@
 }
 
 @media (max-width: 1024px){
-  .about {
-    height: 60vh;
-  }
-  .collage-box {
-    width: 80%;
-  }
-  .about-textbox {
-    width: 80%;
-  }
-  .about-me {
-    font-size: 3vw;
-  }
-  .about-details {
-    font-size: 1.3vw;
-  }
+
 }
 
 @media (max-width: 700px){
