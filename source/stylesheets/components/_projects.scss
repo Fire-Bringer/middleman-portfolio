@@ -1,6 +1,6 @@
 .projects {
   border: 2px solid black;
-  height: 30vh;
+  height: 50vh;
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -25,6 +25,10 @@
 .pro-img {
   width: 100%;
 
+}
+
+.p-title {
+  font-weight: 500;
 }
 
 .project-img {
@@ -53,7 +57,7 @@
 
 .tech {
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.2rem;
 }
 
 .project-name {
@@ -63,7 +67,7 @@
 
 .project-link {
   color: black;
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 
 .project-links {

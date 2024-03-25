@@ -1,5 +1,5 @@
 .about {
-  height: 35vh;
+  height: 50vh;
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: repeat(2, 1fr);
@@ -9,7 +9,7 @@
 .about-img {
   width: 100%;
   display: grid;
-  grid-template-rows: 1rem 4fr 2fr;
+  grid-template-rows: 1rem 4fr 2rem;
   grid-template-columns: 2rem 3fr 1fr;
   border: 2px solid blue;
 }
@@ -17,7 +17,7 @@
 .about-text-container {
   width: 100%;
   display: grid;
-  grid-template-rows: 1rem 4fr 2fr;
+  grid-template-rows: 1rem 4fr 2rem;
   grid-template-columns: 1fr 3fr 2rem;
   border: 2px solid red;
 }
@@ -25,10 +25,14 @@
 .about-content {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-me {
   text-align: center;
+  font-weight: 500;
 }
 
 .about-links {
@@ -38,18 +42,24 @@
 
 .about-details {
   text-align: end;
-  font-size: 0.8vw;
+  font-size: 1.1rem;
   line-height: 1.5em;
+}
+
+.about-img-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
 }
 
 .collage-box {
   border-radius: 1rem;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
   width: 95%;
-  height: 25%;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-
+  height: auto;
 }
 
 .collage-primary {
@@ -81,7 +91,7 @@
 
 .fab {
   color: black;
-  font-size: xx-large;
+  font-size: 2rem;
   margin-right: 0.5em;
 }
 
