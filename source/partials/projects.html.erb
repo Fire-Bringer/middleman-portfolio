@@ -15,13 +15,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                    <%= image_tag project.image_1, alt: "project image", class: "pro-img" %>
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                    <%= image_tag project.image_2, alt: "project image", class: "pro-img" %>
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag project.image, alt: "project image", class: "pro-img" %>
+                    <%= image_tag project.image_3, alt: "project image", class: "pro-img" %>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide="prev">
