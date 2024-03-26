@@ -7,7 +7,7 @@
   image_3: projects/uq/students.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
-  online: true
+  online: false
   rails: true
   html: true
   css: true
@@ -24,7 +24,7 @@
   image_3: projects/friends4benefits/drink_gallery.png
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
   github: https://github.com/HappyDay101/Friends-4-Benefits
-  online: true
+  online: false
   rails: true
   html: true
   css: true
