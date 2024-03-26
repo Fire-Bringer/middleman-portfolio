@@ -284,6 +284,12 @@
   }
 }
 
+@media (max-width: 425px){
+  .project-text-container {
+    grid-template-rows: 1rem 2fr 1rem;
+  }
+}
+
 @media (max-width: 362px){
   .name {
     font-size: 1.6rem;
