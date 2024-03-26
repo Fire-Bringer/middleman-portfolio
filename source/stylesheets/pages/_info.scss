@@ -22,7 +22,6 @@
 }
 
 .odd-info-container {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,7 +30,6 @@
 }
 
 .even-info-container {
-  border: 2px solid black;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -115,15 +113,28 @@
 }
 
 @media (max-width: 700px){
-  .info {
-    height: 70vh;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 100%;
+  .odd-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 85vh;
+  }
+  .even-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 85vh;
+  }
+  .info-img, .info-text-container {
+    width: 70vw;
   }
   .info-details {
     font-size: 1rem;
-    text-align: center;
+    text-align: start;
   }
   .info-links {
     justify-content: center;
