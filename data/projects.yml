@@ -14,6 +14,7 @@
   javascript: true
   sql: true
   figma: true
+  info: http://localhost:4567/uq.html
 
 - name: Friends 4 Benefits
   id: two
@@ -31,3 +32,4 @@
   javascript: true
   sql: true
   figma: true
+  info: http://localhost:4567/f4b.html

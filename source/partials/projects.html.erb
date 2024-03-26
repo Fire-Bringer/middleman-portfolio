@@ -63,7 +63,9 @@
                 <% end %>
               </div>
               <div class="project-links">
-                <!--<i class="fa-solid fa-circle-info project-link"></i>-->
+                <% link_to project.info.to_s do %>
+                  <i class="fa-solid fa-circle-info project-link"></i>
+                <% end %>
                 <% link_to project.github, target: '_blank' do %>
                   <i class="fa-brands fa-github project-link"></i>
                 <% end %>
