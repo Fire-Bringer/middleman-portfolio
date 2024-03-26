@@ -2,9 +2,9 @@
   id: one
   role: Project Manager / Fullstack Developer
   description: An education app which helps students learn through differentiated learning and AI assistance
-  image_1: projects/uq_homepage.png
-  image_2: projects/lesson_index.png
-  image_3: projects/students_index.png
+  image_1: projects/uq/uq_home.png
+  image_2: projects/uq/lessons.png
+  image_3: projects/uq/students.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: true
@@ -19,9 +19,9 @@
   id: two
   role: Project Manager / Fullstack Developer
   description: A social app which helps people find new friends through mutual hobbies
-  image_1: projects/f4b_homepage.png
-  image_2: projects/homepage_buddies.png
-  image_3: projects/buddy_show.png
+  image_1: projects/friends4benefits/f4b_homepage.png
+  image_2: projects/friends4benefits/some_services.png
+  image_3: projects/friends4benefits/drink_gallery.png
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
   github: https://github.com/HappyDay101/Friends-4-Benefits
   online: true
