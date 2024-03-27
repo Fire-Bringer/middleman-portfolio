@@ -1,7 +1,7 @@
 - name: UQ - Your Intelligence
   id: one
   role: Project Manager / Fullstack Developer
-  description: An education app which helps students learn through differentiated learning and AI assistance
+  description: An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
   mockup: projects/uq/uq_mockup3.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
@@ -17,7 +17,7 @@
 - name: Friends 4 Benefits
   id: two
   role: Project Manager / Fullstack Developer
-  description: A social app which helps people find new friends through mutual hobbies
+  description: A social app which helps people find new friends through mutual hobbies. People can look for new friends or offer an activity to invite others to join them. Features include calendar booking, image uploading, and private chat.
   mockup: projects/friends4benefits/f4b_mockup3.png
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
   github: https://github.com/HappyDay101/Friends-4-Benefits

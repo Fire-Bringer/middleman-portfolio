@@ -6,21 +6,21 @@
 }
 
 .project-img-container {
-  width: 100%;
+  width: 85%;
   display: grid;
-  grid-template-rows: 2rem 4fr 2rem;
-  grid-template-columns: 1fr 5fr 2rem;
+  grid-template-rows: 1rem 4fr 1rem;
+  grid-template-columns: 1fr 5fr 1rem;
 }
 
 .project-text-container {
-  width: 100%;
+  width: 95%;
   display: grid;
-  grid-template-rows: 2rem 4fr 2rem;
-  grid-template-columns: 2rem 3fr 1fr;
+  grid-template-rows: 1rem 4fr 1rem;
+  grid-template-columns: 1rem 3fr 1fr;
 }
 
 .pro-img {
-  width: 100%;
+  width: 95%;
   border-radius: 1rem;
   box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.25);
 }
@@ -34,6 +34,7 @@
   grid-column: 2 / 3;
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .project-content {
