@@ -106,6 +106,7 @@
   }
 }
 
+
 @media (max-width: 1440px){
   .hero {
     height: 55vh;
@@ -203,7 +204,18 @@
   .contact-head {
     font-size: 1.5rem;
   }
+}
 
+@media all and (orientation: landscape) and (max-width: 850px){
+  .hero {
+    height: 80vh;
+  }
+  .about {
+    height: 90vh;
+  }
+  .projects {
+    height: 65vh;
+  }
 }
 
 @media (max-width: 767px){

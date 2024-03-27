@@ -106,6 +106,12 @@
   }
 }
 
+@media all and (orientation: landscape) and (max-width: 860px){
+  .odd-info-container, .even-info-container {
+    height: 65vh;
+  }
+}
+
 @media (max-width: 767px){
   .info {
     height: 30vh;
