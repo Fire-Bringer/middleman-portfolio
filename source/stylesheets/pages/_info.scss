@@ -20,9 +20,7 @@
 .carousel-control-prev, .carousel-control-next {
   border-radius: 2rem;
   background-color: rgba(218, 48, 165, 0.984);
-  width: 2.5rem;
-  height: 2.5rem;
-  align-self: center;
+  width: 1rem;
 }
 
 .info-content {
@@ -169,18 +167,11 @@
   .info-me {
     font-size: 1.6rem;
   }
-  .carousel-control-prev, .carousel-control-next {
-    width: 2rem;
-    height: 2rem;
-  }
 }
 
 @media (max-width: 425px){
   .odd-info-container, .even-info-container {
-    height: 70vh;
-  }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    justify-self: center;
+    height: 60vh;
   }
 }
 
