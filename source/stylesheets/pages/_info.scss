@@ -1,5 +1,5 @@
 .info-me {
-  padding-top: 2rem;
+  padding-top: 3rem;
   text-align: center;
   font-size: 2rem;
 }
@@ -8,6 +8,20 @@
   width: 30vw;
   display: flex;
   align-items: center;
+  border-radius: 1rem;
+}
+
+.info-img-content {
+  box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.75);
+  border-radius: 1rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  border-radius: 2rem;
+  background-color: rgba(218, 48, 165, 0.984);
+  width: 2.5rem;
+  height: 2.5rem;
+  align-self: center;
 }
 
 .info-content {
@@ -49,31 +63,31 @@
   .info-details {
     font-size: 1rem;
   }
-  .info-me, .p-title, .project-name, .project-link {
+  .info-me {
     font-size: 1.5rem;
   }
-  .info-link, .hero-link {
+  .info-link {
     font-size: 2rem;
   }
 }
 
 @media (max-width: 1199px){
-  .name, .hero-link, .info-link {
+  .info-link {
     font-size: 2rem;
   }
-  .main-skills, .info-details {
+  .info-details {
     font-size: 0.9rem;
   }
-  .p-title, .project-name, .info-me, .title {
+  .info-me {
     font-size: 1.3rem;
   }
-  .hero, .info {
+  .info {
     height: 45vh;
   }
 }
 
 @media (max-width: 991px){
-  .info-details, .main-skills, .project-role {
+  .info-details {
     font-size: 0.8rem;
   }
   .info-text-container {
@@ -82,7 +96,7 @@
   .info-img {
     grid-template-columns: 2rem 3fr 2rem;
   }
-  .name, .hero-link, .info-link {
+  .info-link {
     font-size: 2rem;
   }
   .info {

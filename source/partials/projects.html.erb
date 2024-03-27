@@ -6,33 +6,7 @@
         <div class="projects">
           <div class="project-img-container">
             <div class="project-img">
-              <!--Project Carousels-->
-              <div id="<%= project.id.to_s%>" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <%= image_tag project.image_1, alt: "project image", class: "pro-img" %>
-                  </div>
-                  <div class="carousel-item">
-                    <%= image_tag project.image_2, alt: "project image", class: "pro-img" %>
-                  </div>
-                  <div class="carousel-item">
-                    <%= image_tag project.image_3, alt: "project image", class: "pro-img" %>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#<%= project.id.to_s%>" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+              <%= image_tag project.mockup, class: "pro-img" %>
             </div>
           </div>
           <div class="project-text-container">
@@ -84,5 +58,3 @@
   </div>
 </div>
 <hr>
-
-<%= link_to 'More Info', '/f4b.html.erb' %>

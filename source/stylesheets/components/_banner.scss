@@ -66,6 +66,7 @@ p {
   margin-top: 1rem;
   box-shadow: 0 3px 6px rgba(0, 17, 166, 0.391);
   border-radius: 0.25rem;
+  transition: color 0.5s, transform 0.3s;
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
     color: rgba(218, 48, 165, 0.984);
