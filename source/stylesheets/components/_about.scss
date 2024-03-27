@@ -112,7 +112,7 @@
     height: 55vh;
   }
   .about {
-    height: 40vh;
+    height: 45vh;
   }
   .projects {
     height: 40vh;
@@ -147,7 +147,7 @@
   .p-title, .project-name, .about-me, .title {
     font-size: 1.3rem;
   }
-  .hero, .about {
+  .hero, .about, .projects {
     height: 45vh;
   }
   .collage-box {
@@ -498,6 +498,7 @@
   }
   .project-img-container {
     grid-template-rows: 0.5rem 4fr 0.5rem;
+    grid-template-columns: 0rem 3fr 0rem;
   }
   .hero {
     height: 65vh;
