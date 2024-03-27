@@ -6,10 +6,11 @@
 }
 
 .project-img-container {
-  width: 85%;
+  width: 95%;
   display: grid;
   grid-template-rows: 1rem 4fr 1rem;
   grid-template-columns: 1fr 5fr 1rem;
+  justify-self: center;
 }
 
 .project-text-container {

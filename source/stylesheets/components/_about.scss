@@ -277,13 +277,13 @@
     height: 35vh;
   }
   .about-text-container {
-    grid-template-columns: 1rem 3fr 1rem;
+    grid-template-columns: 0rem 3fr 0rem;
   }
   .about-img {
-    grid-template-columns: 1rem 3fr 1rem;
+    grid-template-columns: 0rem 3fr 0rem;
   }
   .project-img-container {
-    grid-template-columns: 0rem 3fr 1rem;
+    grid-template-columns: 0rem 3fr 0rem;
 }
   .name {
     font-size: 1.7rem;
@@ -436,6 +436,9 @@
   .about-me, .p-title {
     font-size: 1.6rem;
   }
+  .project-img {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 670px) and (orientation: landscape){
@@ -482,17 +485,17 @@
 
 @media (max-width: 450px) and (orientation: portrait){
   .hero {
-    height: 60vh;
+    height: 85vh;
   }
   .about {
-    height: 65vh;
+    height: 95vh;
   }
   .projects {
-    height: 70vh;
+    height: 105vh;
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) and (orientation: portrait){
   .project-text-container {
     grid-template-rows: 1rem 2fr 1rem;
   }
@@ -501,10 +504,13 @@
     grid-template-columns: 0rem 3fr 0rem;
   }
   .hero {
-    height: 65vh;
+    height: 85vh;
   }
   .about {
-    height: 80vh;
+    height: 95vh;
+  }
+  .projects {
+    height: 95vh;
   }
   .collage-box {
     width: 80%;
