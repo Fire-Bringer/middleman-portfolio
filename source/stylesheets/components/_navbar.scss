@@ -40,7 +40,7 @@ nav ul li {
 
 nav ul li::after {
   content: '';
-  background: white;
+  background: rgba(218, 48, 165, 0.984);
   height: 100%;
   width: 100%;
   border-radius: 30px;
@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: white;
 }
 
 @media (max-width: 500px){
