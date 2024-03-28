@@ -228,7 +228,7 @@
   }
 }
 
-@media all and (orientation: landscape) and (max-width: 950px){
+@media (orientation: landscape) and (max-width: 950px) and (min-width: 731px){
   .hero {
     height: 80vh;
   }
