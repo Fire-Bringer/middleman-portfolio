@@ -236,7 +236,7 @@
     height: 90vh;
   }
   .projects {
-    height: 65vh;
+    height: 85vh;
   }
 }
 
@@ -292,15 +292,12 @@
   .main-skills {
     font-size: 0.7rem;
   }
-  .hero-link {
-    font-size: 1.5rem;
+  .hero-link, .about-link, .project-link {
+    font-size: 2.5rem;
   }
   .about-details {
     font-size: 0.7rem;
     line-height: 1.3;
-  }
-  .about-link {
-    font-size: 1.5rem;
   }
   .about-me {
     font-size: 1.4rem;
@@ -316,9 +313,6 @@
   }
   .project-details {
     font-size: 0.7em;
-  }
-  .project-link {
-    font-size: 1.2rem;
   }
 }
 
