@@ -586,6 +586,18 @@
   }
 }
 
+@media (max-width: 340px){
+  .hero {
+    height: 90vh;
+  }
+  .about {
+    height: 105vh;
+  }
+  .projects {
+    height: 105vh;
+  }
+}
+
 @media (max-width: 311px){
   .about {
     height: 75vh;
