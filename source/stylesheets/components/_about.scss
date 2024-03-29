@@ -586,7 +586,7 @@
   }
 }
 
-@media (max-width: 340px){
+@media (max-width: 340px) and (max-height: 570px){
   .hero {
     height: 90vh;
   }
@@ -606,12 +606,12 @@
 
 @media (max-width: 290px) and (orientation: portrait){
   .hero {
-    height: 90vh;
+    height: 75vh;
   }
   .about {
-    height: 105vh;
+    height: 95vh;
   }
   .projects {
-    height: 105vh;
+    height: 75vh;
   }
 }
