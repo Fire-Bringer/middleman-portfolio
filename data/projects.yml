@@ -6,6 +6,8 @@
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: false
+  features: false
+  code: false
   rails: true
   html: true
   css: true
@@ -22,6 +24,8 @@
   url: https://www.dreamers4change.org/
   github: https://github.com/Fire-Bringer/UQ
   online: false
+  features: false
+  code: false
   rails: true
   html: true
   css: true
@@ -38,6 +42,8 @@
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: false
+  features: true
+  code: true
   rails: true
   html: true
   css: true
@@ -54,6 +60,8 @@
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
   github: https://github.com/HappyDay101/Friends-4-Benefits
   online: false
+  features: true
+  code: true
   rails: true
   html: true
   css: true

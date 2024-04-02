@@ -37,11 +37,15 @@
                 <% end %>
               </div>
               <div class="project-links">
-                <% link_to project.info.to_s do %>
-                  <i class="fa-solid fa-circle-info project-link"></i>
+                <% if project.features? %>
+                  <% link_to project.info.to_s do %>
+                    <i class="fa-solid fa-circle-info project-link"></i>
+                  <% end %>
                 <% end %>
-                <% link_to project.github, target: '_blank' do %>
-                  <i class="fa-brands fa-github project-link"></i>
+                <% if project.code? %>
+                  <% link_to project.github, target: '_blank' do %>
+                    <i class="fa-brands fa-github project-link"></i>
+                  <% end %>
                 <% end %>
                 <% if project.online? %>
                   <% link_to project.url, class: 'globe', target: '_blank' do %>
