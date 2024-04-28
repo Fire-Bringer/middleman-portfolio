@@ -40,7 +40,7 @@ body{
   position: absolute;
   height: 2px;
   right: 32%;
-  background-color: #febd01;
+  background-color: #da30a5fb;
   bottom: 0px;
 }
 .text-center{
@@ -136,7 +136,7 @@ header .navbar ul li a::before{
   transition: all .5s ease;
 }
 header.fixed .navbar ul li a::before{
-  background-color: #febd01;
+  background-color: #da30a5fb;
 }
 
 header .navbar ul li a:hover::before{
@@ -258,7 +258,7 @@ header .navbar ul li a.active::before{
   color: #000000;
 }
 .about-me .about-content .text  h6 span{
-  color: #febd01;
+  color: #da30a5fb;
 
 }
 .about-me .about-content .text p{
@@ -354,7 +354,7 @@ header .navbar ul li a.active::before{
 .services .services-content .box::before{
   content: '';
   height: 2px;
-  background-color: #febd01;
+  background-color: #da30a5fb;
   position: absolute;
   bottom: 0px;
   width: 50px;
@@ -369,7 +369,7 @@ header .navbar ul li a.active::before{
 .services .services-content .box .icon{
   height: 60px;
   width: 60px;
-  background-color: #febd01;
+  background-color: #da30a5fb;
   margin: 15px auto 20px;
   text-align: center;
   border-radius: 50%;
@@ -440,7 +440,7 @@ header .navbar ul li a.active::before{
   position: relative;
 }
 .skills .skills-content .skill-box .skill-bar .skill-bar-in{
-  background-color: #febd01;
+  background-color: #da30a5fb;
   position: absolute;
   left: 0;
   top: 0;
@@ -485,8 +485,8 @@ header .navbar ul li a.active::before{
   padding-bottom: 0px;
 }
 .portfolio .filter-buttons ul li.active{
-  color: #febd01;
-  border-bottom: 2px solid #febd01;
+  color: #da30a5fb;
+  border-bottom: 2px solid #da30a5fb;
 }
 .portfolio .portfolio-gallery{
   flex: 0 0 100%;
@@ -530,7 +530,7 @@ header .navbar ul li a.active::before{
 .portfolio .portfolio-gallery .item .overlay .fa{
   height: 50px;
   width: 50px;
-  background-color: #febd01;
+  background-color: #da30a5fb;
   color: #ffffff;
   display: inline-block;
   text-align: center;
@@ -595,7 +595,7 @@ header .navbar ul li a.active::before{
   height: 35px;
   width: 35px;
   background-color: #ffffff;
-  color: #febd01;
+  color: #da30a5fb;
   text-align: center;
   line-height: 35px;
   position: absolute;
@@ -724,7 +724,7 @@ padding: 40px 15px;
 .contact-us .contact-form .button a{
   border-radius: 4px;
   color: #ffffff;
-  background-color: #febd01;
+  background-color: #da30a5fb;
   border: 1px solid #ffffff;
   padding: 12px 25px;
   text-decoration: none;
@@ -858,7 +858,7 @@ footer .social a:hover{
     color: #000000;
   }
   header .navbar ul li a::before{
-    background-color: #febd01;
+    background-color: #da30a5fb;
   }
   .about-me .about-content .text{
       flex:0 0 100% ;
