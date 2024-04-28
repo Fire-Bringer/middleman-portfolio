@@ -76,11 +76,12 @@
                 <div class="about-content">
                     <div class="row">
                         <div class="img">
-                            <img src="images/about-me.jpeg" alt="About Me">
+                            <%= image_tag 'lwprofile.jpeg' %>
+                            <!--<img src="lwprofile.jpeg" alt="About Me">-->
                         </div>
                         <div class="text">
-                            <h4>I'M Nikhil Raghuwanshi</h4>
-                            <h6>A Lead <span>ux & UI </span>Designer based in <span>India</span></h6>
+                            <h4>I'm Rashad DuPaty</h4>
+                            <h6>A Freelance <span>Fullstack & UX/UI </span>Designer based in <span>Japan</span></h6>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Accusamus quibusdam beatae dolores illo, optio repellendus
@@ -89,15 +90,15 @@
                             <div class="info">
                                 <div class="list">
                                     <label>Birthday:</label>
-                                    <p>12th January 2000</p>
+                                    <p>1st August 1987</p>
                                 </div>
                                 <div class="list">
                                     <label>Email:</label>
-                                    <p>nick75@gmail.com</p>
+                                    <p>ra-dev@gmail.com</p>
                                 </div>
                                 <div class="list">
                                     <label>Age:</label>
-                                    <p>21 Yr</p>
+                                    <p>36 Yr</p>
                                 </div>
                                 <div class="list">
                                     <label>Phone:</label>
@@ -105,7 +106,7 @@
                                 </div>
                                 <div class="list">
                                     <label>Residance:</label>
-                                    <p>India</p>
+                                    <p>Japan</p>
                                 </div>
                                 <div class="list">
                                     <label>Skype:</label>
@@ -113,7 +114,7 @@
                                 </div>
                                 <div class="list">
                                     <label>Address:</label>
-                                    <p>Bhopal(M.P),India</p>
+                                    <p>Kanazawa, Ishikawa</p>
                                 </div>
                                 <div class="list">
                                     <label>Freelance:</label>
@@ -145,7 +146,7 @@
         <div class="container">
             <div class="row">
                 <div class="section-title text-center">
-                    <h1>Our Services</h1>
+                    <h1>Services</h1>
                 </div>
             </div>
             <div class="services-content">
@@ -271,7 +272,8 @@
                     </div>
                 </div>
                 <div class="img">
-                    <img src="images/skill.jpg" alt="skill">
+                  <%= image_tag 'dj.jpg' %>
+                  <!--<img src="images/skill.jpg" alt="skill">-->
                 </div>
             </div>
         </div>
@@ -303,57 +305,58 @@
 
                     <div class="item" data-id="Branding">
                         <div class="inner">
-                            <img src="images/portfolio/1.jpg" alt="portfolio">
+                          <%= image_tag data.projects[0].mockup %>
+                            <!--<img src="images/portfolio/1.jpg" alt="portfolio">-->
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
-                                <h4>Branding</h4>
+                                <h4>Blue Flowers Wellness</h4>
                             </div>
                         </div>
                     </div>
 
                     <div class="item" data-id="Photoshop">
                         <div class="inner">
-                            <img src="images/portfolio/2.jpg" alt="portfolio">
+                            <%= image_tag data.projects[1].mockup %>
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
-                                <h4>Photoshop</h4>
+                                <h4>GMN Clothing & Apparel</h4>
                             </div>
                         </div>
                     </div>
 
                     <div class="item" data-id="Fashion">
                         <div class="inner">
-                            <img src="images/portfolio/3.jpg" alt="portfolio">
+                            <%= image_tag data.projects[2].mockup %>
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
-                                <h4>Fashion</h4>
+                                <h4>Dreamers4Change</h4>
                             </div>
                         </div>
                     </div>
 
                     <div class="item" data-id="Fashion">
                         <div class="inner">
-                            <img src="images/portfolio/4.jpg" alt="portfolio">
+                            <%= image_tag data.projects[3].mockup %>
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
-                                <h4>Fashion</h4>
+                                <h4>UQ - Your Intelligence</h4>
                             </div>
                         </div>
                     </div>
 
                     <div class="item" data-id="Branding">
                         <div class="inner">
-                            <img src="images/portfolio/5.jpg" alt="portfolio">
+                            <%= image_tag data.projects[4].mockup %>
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
-                                <h4>Branding</h4>
+                                <h4>Friends 4 Benefits</h4>
                             </div>
                         </div>
                     </div>
 
                     <div class="item" data-id="Branding">
                         <div class="inner">
-                            <img src="images/portfolio/6.jpg" alt="portfolio">
+                            <%= image_tag data.projects[4].mockup %>
                             <div class="overlay">
                                 <span class="fa fa-plus"></span>
                                 <h4>Photoshop</h4>
@@ -410,8 +413,8 @@
                 <div class="contact-form">
                     <div class="row">
                         <div class="text">
-                            <h2>Drop us a lines</h2>
-                            <p>We are here to answer any Question you may have</p>
+                            <h2>Drop me a line!</h2>
+                            <p>I'm here to answer any question you may have</p>
                         </div>
                     </div>
                     <div class="row space-between">
@@ -444,7 +447,7 @@
         <div class="container">
             <div class="row">
                 <div class="logo">
-                    Nikhil
+                    RA-Dev
                 </div>
                 <div class="social">
                     <a href=""><i class="fa fa-github"></i></a>
@@ -461,12 +464,12 @@
     <!-- Start copy right -->
     <section class="copyright">
         <div class="container">
-            <p>&copy; 2021 copyright all right reserved</p>
+            <p>&copy; 2024 copyright all right reserved</p>
         </div>
     </section>
 
     <!-- End copy right -->
-    <script src="script.js"></script>
+    <script src="site.js"></script>
 </body>
 
 </html>
