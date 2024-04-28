@@ -151,7 +151,7 @@ header .navbar ul li a.active::before{
 /* ******************************** Home ********************************** */
 .Home{
   min-height: 100vh;
-  background-image: url("source/images/pitch.jpg");
+  background-image: image-url('pitch.jpg');
   background-size: cover;
   background-position: center;
   padding: 15px;
