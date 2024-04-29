@@ -237,7 +237,7 @@ header .navbar ul li a.active::before{
   display: block;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-
+  border-radius: 0.5rem;
 }
 .about-me .about-content .text{
   flex: 0 0 66.66%;
@@ -349,7 +349,7 @@ header .navbar ul li a.active::before{
   border: 1px solid #eeeeee;
   text-align: center;
   position: relative;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 .services .services-content .box::before{
   content: '';
@@ -415,6 +415,7 @@ header .navbar ul li a.active::before{
 .skills .img img{
   width: 100%;
   display: block;
+  border-radius: 1rem;
 }
 .skills .skills-content .section-title p{
   font-size: 15px;
@@ -458,7 +459,7 @@ header .navbar ul li a.active::before{
 
 /* **********************Start Portfolio Work********************** */
 .portfolio{
-  background-color: #F5F8FD;
+  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #A5ACAF 100%);
   padding: 100px 7px;
 }
 .portfolio .section-title h1:before{
@@ -507,6 +508,8 @@ header .navbar ul li a.active::before{
 .portfolio .portfolio-gallery .item img{
   width: 100%;
   display: block;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 29px 1px rgba(0,0,0,0.25);
 }
 .portfolio .portfolio-gallery .item .overlay{
   position: absolute;
@@ -523,6 +526,7 @@ header .navbar ul li a.active::before{
   justify-content: center;
   opacity: 0;
   transition: all .5s ease;
+  border-radius: 1rem;
 }
 .portfolio .portfolio-gallery .item:hover .overlay{
   opacity: 1;
@@ -812,28 +816,31 @@ footer .social a:hover{
 
 
 
-  @media(max-width:767px){
-      .Home .Home-content .block h1{
-          font-size: 40px;
+@media(max-width:767px){
+  .Home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , image-url('thai_mountain.jpg');
+  }
+  .Home .Home-content .block h1{
+      font-size: 40px;
   }
   .Home .Home-content .block h3{
-      font-size: 25px;
+    font-size: 25px;
   }
   header{
-      padding: 15px;
-      position: fixed;
-      background-color: #ffffff;
-      border: none;
-      border-bottom: 1px solid #eeeeee;
-      }
+    padding: 15px;
+    position: fixed;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+  }
 
   header .brand-name a{
-      color: #000000;
+    color: #000000;
   }
 
   .ham-burger .fa{
-          display: inline-block;
-      }
+    display: inline-block;
+  }
   .navbar{
       position: absolute;
       background-color:#ffffff;

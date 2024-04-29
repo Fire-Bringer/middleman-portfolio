@@ -2,7 +2,7 @@
   id: one
   role: UX/UI Designer / Fullstack Developer
   description: A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
-  mockup: projects/blueflowers/bf_screenshot.png
+  mockup: projects/blueflowers/bf_mockup.png
   url: https://blue-flowers-wellness-485c6c844258.herokuapp.com/
   github: https://github.com/Fire-Bringer/BF-Wellness
   online: true
@@ -16,11 +16,29 @@
   figma: true
   info: https://rashaddupaty.netlify.app/uq
 
-- name: GMN Clothing & Apparel
+- name: 1948 Hostel - Your Mom's House
   id: two
   role: UX/UI Designer / Fullstack Developer
+  description: A family-run hostel in Chiang Mai, Thailand. Introduces new travelers to the region as well as organized tours upon request.
+  mockup: projects/1948/1948_mockup.png
+  url: https://www.uqedu.org
+  github: https://github.com/Fire-Bringer/UQ
+  online: false
+  features: false
+  code: false
+  rails: true
+  html: true
+  css: true
+  javascript: true
+  sql: true
+  figma: true
+  info: https://rashaddupaty.netlify.app/uq
+
+- name: GMN Clothing & Apparel
+  id: three
+  role: UX/UI Designer / Fullstack Developer
   description: A clothing organization in Sacramento, CA which specializes in original designs created by the owner. The store includes styles for both men and women as well as sizes which are suitable for all ages.
-  mockup: projects/mmn/MMNmu.png
+  mockup: projects/mmn/gmn_mockup.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: false
@@ -35,7 +53,7 @@
   info: https://rashaddupaty.netlify.app/uq
 
 - name: Dreamers4Change
-  id: three
+  id: four
   role: UX/UI Designer / Fullstack Developer
   description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world.
   mockup: projects/dreamers4change/d4cmockup.png
@@ -53,7 +71,7 @@
   info: https://rashaddupaty.netlify.app/uq
 
 - name: UQ - Your Intelligence
-  id: four
+  id: five
   role: Project Manager / Fullstack Developer
   description: An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
   mockup: projects/uq/uq_mockup3.png
@@ -71,7 +89,7 @@
   info: https://rashaddupaty.netlify.app/uq
 
 - name: Friends 4 Benefits
-  id: five
+  id: six
   role: Project Manager / Fullstack Developer
   description: A social app which helps people find new friends through mutual hobbies. People can look for new friends or offer an activity to invite others to join them. Features include calendar booking, image uploading, and private chat.
   mockup: projects/friends4benefits/f4b_mockup3.png
