@@ -815,11 +815,17 @@ footer .social a{
   display: inline-block;
   margin: 0px 12px;
   transition: all .5s ease;
+  &:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    color: #da30a5fb;
+  }
 
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 }
-footer .social a:hover{
-  color: #ffffff;
-}
+
 /* copyright */
 .copyright{
   background-color: #0c0c17;
