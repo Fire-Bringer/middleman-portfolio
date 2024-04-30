@@ -303,8 +303,8 @@ header .navbar ul li a.active::before{
   padding-top: 30px;
 }
 .about-me .about-content .text .social-links a{
-  height: 30px;
-  width: 30px;
+  height: 3rem;
+  width: 3rem;
   background-color: #000000;
   border-radius: 3px;
   display: inline-block;
@@ -314,9 +314,15 @@ header .navbar ul li a.active::before{
   margin: 0 1px;
   -webkit-transition:all .5s ease;
   transition: all .5s ease;
-}
-.about-me .about-content .text .social-links a:hover{
-  background-color: transparent;
+  &:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    background-color: #da30a5fb;
+  }
+
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 }
 
 .about-me .about-content .text .social-links a .fa{
@@ -327,6 +333,10 @@ header .navbar ul li a.active::before{
 }
 .about-me .about-content .text .social-links a:hover .fa{
   color: #000000;
+}
+.fa-brands{
+  font-size: 2.5rem;
+  padding-top: 4px;
 }
 
 
