@@ -7,6 +7,7 @@ html{
 body{
   margin: 0;
   font-family: 'poppins',sans-serif;
+  background: linear-gradient(#dcdddf 52%, #F5F8FD 100%);
 }
 *{
   box-sizing: border-box;
@@ -223,7 +224,7 @@ header .navbar ul li a.active::before{
 /* **********************  Start About  ************************************* */
 .about-me{
   padding: 100px;
-  background-color: #ffffff;
+  background-color: #FBFAF5;
 }
 .text-uppercase{
   text-transform: uppercase!important;
@@ -343,7 +344,7 @@ header .navbar ul li a.active::before{
 /* *****************Our Services********************* */
 
 .services{
-  background-color: #F5F8FD;
+  background: linear-gradient(#dcdddf 52%, #F5F8FD 100%);
   padding: 100px 15px 70px;
 }
 .services .section-title h1:before{
@@ -357,7 +358,7 @@ header .navbar ul li a.active::before{
   justify-content: space-between;
 }
 .services .services-content .box{
-  background-color: #ffffff;
+  background-color: #FBFAF5;
   padding: 30px;
   flex: 0 0 calc(33.33% - 20px);
   max-width: calc(33.33% - 20px);
@@ -413,7 +414,7 @@ header .navbar ul li a.active::before{
 /* ******************** Skills****************************** */
 .skills{
   padding: 100px 15px;
-  background-color: #ffffff;
+  background-color: #FBFAF5;
 }
 .skills .skills-content{
   flex: 0 0 50%;
@@ -700,13 +701,13 @@ padding: 40px 15px;
 
 .contact-us{
   padding: 100px 15px;
-  background-color: #ffffff;
+  background-color: #FBFAF5;
 }
 .contact-us .section-title h1:before{
   left: 0%;
 }
 .contact-us .contact-form{
-  background-color: #F5F8FD;
+  background: linear-gradient(#dcdddf 52%, #F5F8FD 100%);
   flex: 0 0 100%;
   max-width: 100%;
   padding: 50px;
@@ -817,7 +818,7 @@ footer .social a{
   transition: all .5s ease;
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
-    color: #da30a5fb;
+    color: #ffffff;
   }
 
   &:active {
