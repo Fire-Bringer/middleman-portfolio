@@ -39,7 +39,7 @@ body{
   left: 0;
   position: absolute;
   height: 2px;
-  right: 32%;
+  right: 0%;
   background-color: #da30a5fb;
   bottom: 0px;
 }
@@ -836,6 +836,9 @@ footer .social a:hover{
   .Home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , image-url('thai_mountain.jpg');
   }
+  .about-me .about-content .text .social-links{
+    padding-top: 3rem;
+  }
   .Home .Home-content .block h1{
       font-size: 40px;
   }
@@ -933,15 +936,37 @@ footer .social a:hover{
   }
 }
 
+  @media(max-width:730px){
+    .about-me .about-content .text .social-links{
+      padding-top: 6rem;
+    }
+  }
 
+  @media(max-width:548px){
+    .about-me .about-content .text .social-links{
+      padding-top: 8rem;
+    }
+  }
+
+  @media(max-width:512px){
+    .about-me .about-content .text .social-links{
+      padding-top: 12rem;
+    }
+  }
 
 
   @media(max-width:500px){
-    .Home .Home-content .block h1{
-        font-size: 30px;
+    .about-me .about-content .text .social-links{
+      padding-top: 2rem;
+    }
+    .about-me .about-content .text .info{
+      display: none;
+    }
+  .Home .Home-content .block h1{
+    font-size: 30px;
     }
   .Home .Home-content .block h3{
-      font-size: 20px;
+    font-size: 20px;
     }
   .Home .Home-content .block{
       padding-left: 20px;
@@ -953,5 +978,49 @@ footer .social a:hover{
   .about-me .about-content .text .info .list p{
 
       flex:0 0 100% ;
+    }
+  }
+
+  @media(max-width:376px){
+    .about-me .about-content .text .social-links a {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+    .fa-brands {
+      font-size: 2.1rem;
+    }
+  }
+
+  @media(max-width:350px){
+    .about-me .about-content .text .social-links a {
+      height: 2rem;
+      width: 2rem;
+    }
+    .fa-brands {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media(max-width:326px){
+    .about-me .about-content .text .social-links a {
+      width: 1.9rem;
+    }
+  }
+
+  @media(max-width:321px){
+    .about-me .about-content .text .social-links a {
+      width: 1.8rem;
+    }
+  }
+
+  @media(max-width:316px){
+    .about-me .about-content .text .social-links a {
+      width: 1.7rem;
+    }
+  }
+
+  @media(max-width:312px){
+    .about-me .about-content .text .social-links a {
+      width: 1.6rem;
     }
   }
