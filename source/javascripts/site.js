@@ -1,6 +1,8 @@
 // This is where it all goes :)
 // gallery item filter
 
+console.log('Hello from site.js')
+
 const filterButtons = document.querySelector("#filter-btns").children;
 const items = document.querySelector(".portfolio-gallery").children;
 
@@ -48,6 +50,7 @@ closeLightbox.addEventListener("click", function () {
 })
 
 const gallery = document.querySelector(".portfolio-gallery");
+
 const galleryItem = gallery.querySelectorAll(".item");
 
 
@@ -94,7 +97,7 @@ const navbar = document.querySelector(".navbar");
         })
 
 
-    // ham-burger
+  // Ham-Burger Menu
 
     const hamBurger=document.querySelector(".ham-burger");
 

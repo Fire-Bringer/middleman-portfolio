@@ -485,6 +485,7 @@ header .navbar ul li a.active::before{
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 20px;
+  display: none;
 }
 .portfolio .filter-buttons ul{
   list-style: none;
@@ -517,6 +518,15 @@ header .navbar ul li a.active::before{
   position: relative;
   padding: 8px;
 
+  &:hover {
+    transform: scale(1.05); /* Zoom in on hover */
+    transition: 0.8s;
+  }
+
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 }
 .portfolio .portfolio-gallery .item .inner{
   position: relative;
