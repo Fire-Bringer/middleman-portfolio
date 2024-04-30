@@ -69,7 +69,7 @@ p {
   transition: color 0.5s, transform 0.3s;
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
-    color: rgba(218, 48, 165, 0.984);
+    color: #da30a5fb;
   }
 
   &:active {

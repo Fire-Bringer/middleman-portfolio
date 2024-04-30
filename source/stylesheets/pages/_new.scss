@@ -208,11 +208,17 @@ header .navbar ul li a.active::before{
   text-transform: uppercase;
   font-weight: 600;
   transition: all .5s ease;
+  &:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    background-color: #da30a5fb;
+  }
+
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 }
-.Home .Home-content .block .cv-btn a:hover{
-  background-color: #ffffff;
-  color: #000000;
-}
+
 
 /* **********************  Start About  ************************************* */
 .about-me{
@@ -459,7 +465,7 @@ header .navbar ul li a.active::before{
 
 /* **********************Start Portfolio Work********************** */
 .portfolio{
-  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #A5ACAF 100%);
+  background: linear-gradient(#dcdddf 52%, #F5F8FD 100%);
   padding: 100px 7px;
 }
 .portfolio .section-title h1:before{
