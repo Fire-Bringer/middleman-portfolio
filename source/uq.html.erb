@@ -1,12 +1,9 @@
 <!--Info Navbar-->
-<!--
 <div class="navigation-bar sticky-top">
   <nav>
     <ul>
-      <div>
-        <a class="" href="#">
-          <%= image_tag 'blackcat.png', alt: "icon photo", class: 'icon-photo' %>
-        </a>
+      <div class="brand-name">
+          <a href="#" class="logo">RA-Dev</a>
       </div>
       <div>
         <li><a class="navi-options" href="https://rashaddupaty.netlify.app">Home</a></li>
@@ -14,7 +11,7 @@
     </ul>
   </nav>
 </div>
--->
+
 
 <!--Info Content-->
 <!--
@@ -218,7 +215,7 @@
 </section>
 
 <div class="gallery-wrap">
-  <i class="fa-solid fa-circle-chevron-left" id="backBtn"></i>
+  <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
         <span><%= image_tag 'projects/uq/lessons.png' %></span>
@@ -231,7 +228,9 @@
         <span><%= image_tag 'projects/uq/todo_students.png' %></span>
       </div>
     </div>
-  <i class="fa-solid fa-circle-chevron-right" id="nextBtn"></i>
+  <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>
 </div>
+
+<%= partial 'partials/new_footer' %>
 
 <script src="/javascripts/info.js"></script>

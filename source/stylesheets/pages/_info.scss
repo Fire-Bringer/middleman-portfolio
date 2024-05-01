@@ -64,13 +64,13 @@
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px;
+  grid-gap: 2rem;
   padding: 10px;
   flex: none;
 }
 
 .gallery div img {
-  width: 100%;
+  width: 25rem;
   filter: grayscale(100%);
   transition: transform 0.5s;
 }
@@ -83,7 +83,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10% auto;
+  margin: 1% auto;
 }
 
 #backBtn, #nextBtn {
@@ -96,6 +96,29 @@
   filter: grayscale(0);
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.info-arrow {
+  font-size: 2.5rem;
+  &:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+    transition: 0.3s;
+    color: #da30a5fb;
+  }
+
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase ;
+  position: relative;
 }
 
 @media (max-width: 1440px) and (orientation: portrait){
