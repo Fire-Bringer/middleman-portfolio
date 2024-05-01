@@ -246,6 +246,9 @@
   .info-me {
     font-size: 1.4rem;
   }
+  #backBtn, #nextBtn {
+    margin: 1rem;
+}
 }
 
 @media (max-width: 750px) and (orientation: landscape){
