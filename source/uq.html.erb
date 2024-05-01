@@ -164,55 +164,74 @@
 </div>
 -->
 
- <section class="skills">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="skills-content">
-                <div class="row">
-                    <div class="section-title">
-                        <h1>UQ - YOUR INTELLIGENCE</h1>
-                        <p>
-                          An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
-                        </p>
-                        <div class="tech-stack">
-                          <% if data.projects[4].rails? %>
-                            <i class="devicon-rails-plain-wordmark tech"></i>
-                          <% end %>
-                          <% if data.projects[4].html? %>
-                            <i class="devicon-html5-plain-wordmark tech"></i>
-                          <% end %>
-                          <% if data.projects[4].css? %>
-                            <i class="devicon-css3-plain-wordmark tech"></i>
-                          <% end %>
-                          <% if data.projects[4].javascript? %>
-                            <i class="devicon-javascript-plain tech"></i>
-                          <% end %>
-                          <% if data.projects[4].sql? %>
-                            <i class="devicon-azuresqldatabase-plain tech"></i>
-                          <% end %>
-                          <% if data.projects[4].figma? %>
-                            <i class="devicon-figma-plain tech"></i>
-                          <% end %>
-                        </div>
-                        <div class="project-links">
-                          <% if data.projects[4].code? %>
-                            <% link_to data.projects[4].github, target: '_blank' do %>
-                              <i class="fa-brands fa-github project-link"></i>
-                            <% end %>
-                          <% end %>
-                          <% if data.projects[4].online? %>
-                            <% link_to data.projects[4].url, class: 'globe', target: '_blank' do %>
-                              <i class="fa-solid fa-globe project-link"></i>
-                            <% end %>
-                          <% end %>
-                        </div>
+<section class="skills">
+  <div class="container">
+    <div class="row align-items-center">
+        <div class="skills-content">
+            <div class="row">
+                <div class="section-title">
+                    <h1>UQ - YOUR INTELLIGENCE</h1>
+                    <p>
+                      An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
+                    </p>
+                    <div class="tech-stack">
+                      <% if data.projects[4].rails? %>
+                        <i class="devicon-rails-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[4].html? %>
+                        <i class="devicon-html5-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[4].css? %>
+                        <i class="devicon-css3-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[4].javascript? %>
+                        <i class="devicon-javascript-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[4].sql? %>
+                        <i class="devicon-azuresqldatabase-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[4].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                    </div>
+                    <div class="project-links">
+                      <% if data.projects[4].code? %>
+                        <% link_to data.projects[4].github, target: '_blank' do %>
+                          <i class="fa-brands fa-github project-link"></i>
+                        <% end %>
+                      <% end %>
+                      <% if data.projects[4].online? %>
+                        <% link_to data.projects[4].url, class: 'globe', target: '_blank' do %>
+                          <i class="fa-solid fa-globe project-link"></i>
+                        <% end %>
+                      <% end %>
                     </div>
                 </div>
             </div>
-            <div class="img">
-              <%= image_tag 'uq_home.png' %>
-              <!--<img src="images/skill.jpg" alt="skill">-->
-            </div>
+        </div>
+        <div class="img">
+          <%= image_tag 'uq_home.png' %>
+          <!--<img src="images/skill.jpg" alt="skill">-->
         </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<div class="gallery-wrap">
+  <i class="fa-solid fa-circle-chevron-left" id="backBtn"></i>
+    <div class="gallery">
+      <div>
+        <span><%= image_tag 'projects/uq/lessons.png' %></span>
+        <span><%= image_tag 'projects/uq/students.png' %></span>
+        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+      </div>
+      <div>
+        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
+        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
+        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+      </div>
+    </div>
+  <i class="fa-solid fa-circle-chevron-right" id="nextBtn"></i>
+</div>
+
+<script src="/javascripts/info.js"></script>

@@ -3,10 +3,10 @@
 
 console.log('Hello from site.js')
 
-const filterButtons = document.querySelector("#filter-btns").children;
-const items = document.querySelector(".portfolio-gallery").children;
+// const filterButtons = document.querySelector("#filter-btns").children;
+// const items = document.querySelector(".portfolio-gallery").children;
 
-for (let i = 0; i < filterButtons.length; i++) {
+/*for (let i = 0; i < filterButtons.length; i++) {
     filterButtons[i].addEventListener("click", function () {
         for (let j = 0; j < filterButtons.length; j++) {
             filterButtons[j].classList.remove("active")
@@ -25,10 +25,10 @@ for (let i = 0; i < filterButtons.length; i++) {
         }
 
     })
-}
+}*/
 
 
-
+console.log('Check 1')
 
 // lightbox
 
@@ -44,6 +44,8 @@ lightbox.addEventListener("click", function () {
 
 })
 
+console.log('Check 2')
+
 closeLightbox.addEventListener("click", function () {
     lightbox.classList.remove("show");
     lightbox.classList.add("hide");
@@ -52,6 +54,8 @@ closeLightbox.addEventListener("click", function () {
 const gallery = document.querySelector(".portfolio-gallery");
 
 const galleryItem = gallery.querySelectorAll(".item");
+
+console.log('Check 3')
 
 
 galleryItem.forEach(function (element) {
@@ -62,7 +66,7 @@ galleryItem.forEach(function (element) {
     })
 })
 
-
+console.log('Check 4')
 
 // header fix
 
@@ -79,7 +83,7 @@ window.onscroll = function () {
     }
 }
 
-
+console.log('Check 5')
 
 // Navbar links
 
@@ -104,3 +108,9 @@ const navbar = document.querySelector(".navbar");
     hamBurger.addEventListener("click",function(){
         document.querySelector(".navbar").classList.toggle("show");
     })
+
+
+
+
+
+    console.log("Test Last");
