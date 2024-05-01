@@ -77,7 +77,7 @@
   mockup: projects/uq/uq_mockup3.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
-  online: false
+  online: true
   features: true
   code: true
   rails: true
@@ -95,7 +95,7 @@
   mockup: projects/friends4benefits/f4b_mockup3.png
   url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
   github: https://github.com/HappyDay101/Friends-4-Benefits
-  online: false
+  online: true
   features: true
   code: true
   rails: true
