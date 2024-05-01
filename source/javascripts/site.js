@@ -3,10 +3,10 @@
 
 console.log('Hello from site.js')
 
-// const filterButtons = document.querySelector("#filter-btns").children;
-// const items = document.querySelector(".portfolio-gallery").children;
+const filterButtons = document.querySelector("#filter-btns").children;
+const items = document.querySelector(".portfolio-gallery").children;
 
-/*for (let i = 0; i < filterButtons.length; i++) {
+for (let i = 0; i < filterButtons.length; i++) {
     filterButtons[i].addEventListener("click", function () {
         for (let j = 0; j < filterButtons.length; j++) {
             filterButtons[j].classList.remove("active")
@@ -25,7 +25,7 @@ console.log('Hello from site.js')
         }
 
     })
-}*/
+}
 
 
 console.log('Check 1')

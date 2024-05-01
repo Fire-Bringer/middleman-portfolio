@@ -304,7 +304,7 @@
                           <%= image_tag data.projects[0].mockup %>
                             <!--<img src="images/portfolio/1.jpg" alt="portfolio">-->
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
+                                <span class="fa fa-info"></span>
                                 <h4>Blue Flowers Wellness</h4>
                                 <h5>Ecommerce Website</h5>
                             </div>
@@ -315,7 +315,7 @@
                         <div class="inner">
                             <%= image_tag data.projects[1].mockup %>
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
+                                <span class="fa fa-info"></span>
                                 <h4>1948 Hostel</h4>
                                 <h5>Booking Webapp</h5>
                             </div>
@@ -326,7 +326,7 @@
                         <div class="inner">
                             <%= image_tag data.projects[2].mockup %>
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
+                                <span class="fa fa-info"></span>
                                 <h4>GMN Clothing & Apparel</h4>
                                 <h5>Ecommerce Website</h5>
                             </div>
@@ -337,7 +337,7 @@
                         <div class="inner">
                             <%= image_tag data.projects[3].mockup %>
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
+                                <span class="fa fa-info"></span>
                                 <h4>Dreamers4Change</h4>
                                 <h5>Charity Website</h5>
                             </div>
@@ -348,9 +348,11 @@
                         <div class="inner">
                             <%= image_tag data.projects[4].mockup %>
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
-                                <h4>UQ - Your Intelligence</h4>
-                                <h5>Education App</h5>
+                              <% link_to data.projects[4].info.to_s do %>
+                                <span class="fa fa-info"></span>
+                              <% end %>
+                              <h4>UQ - Your Intelligence</h4>
+                              <h5>Education App</h5>
                             </div>
                         </div>
                     </div>
@@ -359,7 +361,7 @@
                         <div class="inner">
                             <%= image_tag data.projects[5].mockup %>
                             <div class="overlay">
-                                <span class="fa fa-plus"></span>
+                                <span class="fa fa-info"></span>
                                 <h4>Friends 4 Benefits</h4>
                                 <h5>Social Networking App</h5>
                             </div>
