@@ -361,7 +361,9 @@
                         <div class="inner">
                             <%= image_tag data.projects[5].mockup %>
                             <div class="overlay">
+                              <% link_to data.projects[5].info.to_s do %>
                                 <span class="fa fa-info"></span>
+                              <% end %>
                                 <h4>Friends 4 Benefits</h4>
                                 <h5>Social Networking App</h5>
                             </div>
