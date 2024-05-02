@@ -86,7 +86,7 @@ header .brand-name a{
   font-size: 22px;
   font-weight: 600;
   color: #ffffff;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   position: relative;
 }
 header.fixed .brand-name a{
@@ -147,6 +147,103 @@ header .navbar ul li a:hover::before{
 header .navbar ul li a.active::before{
   width: 100%;
   left: 0;
+}
+
+/* ******************************* Header 2 ******************************* */
+.head1 {
+  display: block;
+}
+
+.head2{
+  display: none;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar2{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.nav-link:hover{
+  color: #da30a5fb;
+}
+
+.hamburger{
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #262626;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item{
+  margin: 16px 0;
+}
+
+.nav-menu.active{
+  left: 0;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
 /* ******************************** Home ********************************** */
@@ -870,6 +967,12 @@ footer .social a{
 
 
 @media(max-width:767px){
+  .head1 {
+    display: none;
+  }
+  .head2 {
+    display: block;
+  }
   .Home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , image-url('thai_mountain.jpg');
   }
@@ -970,6 +1073,9 @@ footer .social a{
   .contact-us .contact-form .col-6{
       flex:0 0 100% ;
       max-width:100% ;
+  }
+  .brand-name, .ham-burger {
+    width: unset;
   }
 }
 
