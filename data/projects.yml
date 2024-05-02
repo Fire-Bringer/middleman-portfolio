@@ -7,7 +7,7 @@
   github: https://github.com/Fire-Bringer/BF-Wellness
   online: true
   features: false
-  code: false
+  code: true
   rails: true
   html: true
   css: true
