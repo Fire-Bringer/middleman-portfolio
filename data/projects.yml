@@ -2,7 +2,7 @@
   id: one
   role: UX/UI Designer / Fullstack Developer
   description: A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
-  mockup: projects/blueflowers/bf_mockup.png
+  mockup: projects/blueflowers/bf_mockupv.png
   url: https://blue-flowers-wellness-485c6c844258.herokuapp.com/
   github: https://github.com/Fire-Bringer/BF-Wellness
   online: true
@@ -20,7 +20,7 @@
   id: two
   role: UX/UI Designer / Fullstack Developer
   description: A family-run hostel in Chiang Mai, Thailand. Introduces new travelers to the region as well as organized tours upon request.
-  mockup: projects/1948/1948_mockup.png
+  mockup: projects/1948/1948_mockupv.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: false
@@ -38,7 +38,7 @@
   id: three
   role: UX/UI Designer / Fullstack Developer
   description: A clothing organization in Sacramento, CA which specializes in original designs created by the owner. The store includes styles for both men and women as well as sizes which are suitable for all ages.
-  mockup: projects/mmn/gmn_mockup.png
+  mockup: projects/gmn/MMNmu.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
   online: false
@@ -50,7 +50,7 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/uq
+  info: https://rashaddupaty.netlify.app/gmn
 
 - name: Dreamers4Change
   id: four
