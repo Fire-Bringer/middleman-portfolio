@@ -304,7 +304,9 @@
                           <%= image_tag data.projects[0].mockup %>
                             <!--<img src="images/portfolio/1.jpg" alt="portfolio">-->
                             <div class="overlay">
+                              <% link_to data.projects[0].info.to_s do %>
                                 <span class="fa fa-info"></span>
+                              <% end %>
                                 <h4>Blue Flowers Wellness</h4>
                                 <h5>Ecommerce Website</h5>
                             </div>

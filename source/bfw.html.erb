@@ -11,33 +11,33 @@
                       A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
                     </p>
                     <div class="tech-stack">
-                      <% if data.projects[5].rails? %>
+                      <% if data.projects[0].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].html? %>
+                      <% if data.projects[0].html? %>
                         <i class="devicon-html5-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].css? %>
+                      <% if data.projects[0].css? %>
                         <i class="devicon-css3-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].javascript? %>
+                      <% if data.projects[0].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
                       <% end %>
-                      <% if data.projects[5].sql? %>
+                      <% if data.projects[0].sql? %>
                         <i class="devicon-azuresqldatabase-plain tech"></i>
                       <% end %>
-                      <% if data.projects[5].figma? %>
+                      <% if data.projects[0].figma? %>
                         <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
-                      <% if data.projects[5].code? %>
-                        <% link_to data.projects[5].github, target: '_blank' do %>
+                      <% if data.projects[0].code? %>
+                        <% link_to data.projects[0].github, target: '_blank' do %>
                           <i class="fa-brands fa-github project-link"></i>
                         <% end %>
                       <% end %>
-                      <% if data.projects[5].online? %>
-                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                      <% if data.projects[0].online? %>
+                        <% link_to data.projects[0].url, class: 'globe', target: '_blank' do %>
                           <i class="fa-solid fa-globe project-link"></i>
                         <% end %>
                       <% end %>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/friends4benefits/f4b_homepage.png' %>
+          <%= image_tag 'projects/blueflowers/bfwtitle.png' %>
           <!--<img src="images/skill.jpg" alt="skill">-->
         </div>
     </div>
@@ -57,14 +57,14 @@
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
-        <span><%= image_tag 'projects/friends4benefits/signup.png' %></span>
-        <span><%= image_tag 'projects/friends4benefits/some_services.png' %></span>
-        <span><%= image_tag 'projects/friends4benefits/emo_buddies.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc1.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc2.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc3.png' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/friends4benefits/all_buddies.png' %></span>
-        <span><%= image_tag 'projects/friends4benefits/friend_bookings.png' %></span>
-        <span><%= image_tag 'projects/friends4benefits/drink_buddy.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc4.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc5.png' %></span>
+        <span><%= image_tag 'projects/blueflowers/bfwsc6.png' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>
