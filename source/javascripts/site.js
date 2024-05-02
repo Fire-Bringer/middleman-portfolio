@@ -2,10 +2,10 @@
 // gallery item filter
 
 document.addEventListener('DOMContentLoaded', function() {
-  
+
   console.log('Hello from site.js')
 
-  /*
+
   const filterButtons = document.querySelector("#filter-btns").children;
   const items = document.querySelector(".portfolio-gallery").children;
 
@@ -61,14 +61,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   console.log('Check 3')
 
-
+/*
   galleryItem.forEach(function (element) {
-      element.querySelector(".fa-plus").addEventListener("click", function () {
+      element.querySelector(".fa-info").addEventListener("click", function () {
           lightbox.classList.remove("hide");
           lightbox.classList.add("show");
           lightboxImage.src = element.querySelector("img").getAttribute("src")
       })
   })
+*/
 
   console.log('Check 4')
 
@@ -104,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
               })
           })
 
-          */
+
 
     // Ham-Burger Menu
 
