@@ -119,9 +119,9 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log("Event listener added on click to mobile menu function");
 
   function mobileMenu() {
-      hamburger.classList.toggle("active");
+      hamburger.classList.add("active");
       console.log(hamburger.classList);
-      navMenu.classList.toggle("active");
+      navMenu.classList.add("active");
       console.log(navMenu.classList);
   }
 
