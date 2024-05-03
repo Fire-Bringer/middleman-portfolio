@@ -3,3 +3,22 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.project-link{
+  color: #da30a5fb;
+  &:hover {
+    color: black;
+  }
+}
+
+.info-arrow{
+  color: #da30a5fb;
+  &:hover {
+    color: black;
+  }
+}
+
+.navi-options{
+  font-family: "Quicksand", "Helvetica", "sans-serif";
+  font-weight: bold;
+}

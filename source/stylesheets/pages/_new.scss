@@ -265,7 +265,7 @@ a{
 }
 .Home .Home-content .block .cv-btn a{
   border-radius: 4px;
-  color: #ffffff;
+  background-color: #da30a5fb;
   border: 1px solid #ffffff;
   padding: 12px 25px;
   text-decoration: none;
@@ -274,9 +274,11 @@ a{
   text-transform: uppercase;
   font-weight: 600;
   transition: all .5s ease;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
-    background-color: #da30a5fb;
+    background-color: #A5ACAF;
+    color: black;
   }
 
   &:active {
@@ -371,7 +373,7 @@ a{
 .about-me .about-content .text .social-links a{
   height: 3rem;
   width: 3rem;
-  background-color: #000000;
+  background-color: #da30a5fb;
   border-radius: 3px;
   display: inline-block;
   border: 1px solid #000000;
@@ -380,9 +382,11 @@ a{
   margin: 0 1px;
   -webkit-transition:all .5s ease;
   transition: all .5s ease;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
-    background-color: #da30a5fb;
+    background-color: #A5ACAF;
+    color: black;
   }
 
   &:active {
@@ -742,6 +746,7 @@ padding: 40px 15px;
 .message-text .button a{
   border-radius: 4px;
   color: #ffffff;
+  background-color: #da30a5fb;
   border: 1px solid #ffffff;
   padding: 12px 25px;
   text-decoration: none;
@@ -752,7 +757,8 @@ padding: 40px 15px;
   transition: all .5s ease;
   &:hover {
     transform: scale(1.2); /* Zoom in on hover */
-    background-color: #da30a5fb;
+    background-color: #A5ACAF;
+    color: black;
   }
 
   &:active {
