@@ -200,40 +200,7 @@ a{
 }
 
 .hamburger{
-  display: block;
-  cursor: pointer;
-}
-
-.hamburger.active .bar:nth-child(2){
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-menu{
-  position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  background-color: #262626;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.nav-item{
-  margin: 16px 0;
-}
-
-.nav-menu.active{
-  left: 0;
+  display: none;
 }
 
 .bar{
@@ -972,6 +939,7 @@ footer .social a{
   }
   .head2 {
     display: block;
+    background-color: black;
   }
   .Home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , image-url('thai_mountain.jpg');
@@ -1017,7 +985,7 @@ footer .social a{
 
   header .navbar ul li{
       display: block;
-      margin-left:0 ;
+      margin-left: 0 ;
     }
   header .navbar ul li a{
     line-height: 42px;
@@ -1076,6 +1044,42 @@ footer .social a{
   }
   .brand-name, .ham-burger {
     width: unset;
+  }
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
   }
 }
 

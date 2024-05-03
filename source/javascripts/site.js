@@ -105,29 +105,35 @@ document.addEventListener('DOMContentLoaded', function() {
               })
           })
 
-
-
-    // Ham-Burger Menu
-
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
-
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  })
-
-  document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }))
-
-
-
-
-
   console.log("Test Last");
 
+  // Hamburger Menu
+
+  const hamburger = document.querySelector(".hamburger");
+  console.log(hamburger);
+  const navMenu = document.querySelector(".nav-menu");
+  console.log(navMenu);
+
+  hamburger.addEventListener("click", mobileMenu);
+
+  console.log("Event listener added on click to mobile menu function");
+
+  function mobileMenu() {
+      hamburger.classList.toggle("active");
+      console.log(hamburger.classList);
+      navMenu.classList.toggle("active");
+      console.log(navMenu.classList);
+  }
+
+  const navLink = document.querySelectorAll(".nav-link");
+  console.log(navLink);
+
+  navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+  function closeMenu() {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+  }
 
 
 });
