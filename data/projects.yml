@@ -105,3 +105,21 @@
   sql: true
   figma: true
   info: https://rashaddupaty.netlify.app/f4b
+
+- name: Harry's Sandwich Company
+  id: three
+  role: UX/UI Designer / Frontend Developer
+  description: A homepage for an American restaurant within Harajuku in Tokyo. They specialize in sandwiches, craft beer and great community events with music and crafts.
+  mockup: projects/gmn/MMNmu.png
+  url: https://www.uqedu.org
+  github: https://github.com/Fire-Bringer/UQ
+  online: false
+  features: false
+  code: false
+  rails: true
+  html: true
+  css: true
+  javascript: true
+  sql: true
+  figma: true
+  info: https://rashaddupaty.netlify.app/gmn
