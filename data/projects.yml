@@ -34,23 +34,23 @@
   figma: true
   info: https://rashaddupaty.netlify.app/uq
 
-- name: GMN Clothing & Apparel
+- name: Harry's Sandwich Company
   id: three
-  role: UX/UI Designer / Fullstack Developer
-  description: A clothing organization in Sacramento, CA which specializes in original designs created by the owner. The store includes styles for both men and women as well as sizes which are suitable for all ages.
-  mockup: projects/gmn/MMNmu.png
-  url: https://www.uqedu.org
-  github: https://github.com/Fire-Bringer/UQ
-  online: false
+  role: UX/UI Designer / Frontend Developer
+  description: A homepage for an American restaurant within Harajuku in Tokyo. They specialize in sandwiches, craft beer and great community events with music and crafts.
+  mockup: projects/harrys/harry_mockupv2.png
+  url: https://harryssandwichcompany.netlify.app/
+  github: https://github.com/Fire-Bringer/middleman-harrys-lp
+  online: true
   features: false
-  code: false
+  code: true
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
+  sql: false
   figma: true
-  info: https://rashaddupaty.netlify.app/gmn
+  info: https://rashaddupaty.netlify.app/harrys
 
 - name: Dreamers4Change
   id: four
@@ -105,21 +105,3 @@
   sql: true
   figma: true
   info: https://rashaddupaty.netlify.app/f4b
-
-- name: Harry's Sandwich Company
-  id: three
-  role: UX/UI Designer / Frontend Developer
-  description: A homepage for an American restaurant within Harajuku in Tokyo. They specialize in sandwiches, craft beer and great community events with music and crafts.
-  mockup: projects/gmn/MMNmu.png
-  url: https://www.uqedu.org
-  github: https://github.com/Fire-Bringer/UQ
-  online: false
-  features: false
-  code: false
-  rails: true
-  html: true
-  css: true
-  javascript: true
-  sql: true
-  figma: true
-  info: https://rashaddupaty.netlify.app/gmn
