@@ -58,10 +58,10 @@
   description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world.
   mockup: projects/dreamers4change/d4cmockup2.png
   url: https://www.dreamers4change.org/
-  github: https://github.com/Fire-Bringer/UQ
-  online: false
+  github: https://github.com/Fire-Bringer/middleman-dreamers4change
+  online: true
   features: false
-  code: false
+  code: true
   rails: true
   html: true
   css: true
