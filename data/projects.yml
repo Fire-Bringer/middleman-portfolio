@@ -55,9 +55,9 @@
 - name: Dreamers4Change
   id: four
   role: UX/UI Designer / Fullstack Developer
-  description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world.
+  description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world. [Responsive]
   mockup: projects/dreamers4change/d4cmockup2.png
-  url: https://www.dreamers4change.org/
+  url: https://dreamers4change.netlify.app/
   github: https://github.com/Fire-Bringer/middleman-dreamers4change
   online: true
   features: false
