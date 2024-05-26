@@ -76,6 +76,13 @@ header.fixed{
   }
 }
 
+.head1.fixed .white-emblem{
+  display: none;
+}
+
+.head1.fixed .black-emblem{
+  display: unset;
+}
 
 header .row{
  justify-content: space-between;
@@ -1180,4 +1187,3 @@ footer .social a{
       width: 1.6rem;
     }
   }
-
