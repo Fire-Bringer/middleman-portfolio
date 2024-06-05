@@ -61,7 +61,7 @@ header{
   z-index: 11;
 }
 header.fixed{
-  background-color: #ffffff;
+  background-color: #000000;
   position: fixed;
   border-color: #eeeeee;
   animation: fixHeader .5s ease;
@@ -129,7 +129,7 @@ header .navbar ul li a{
   position: relative;
 }
 header.fixed .navbar ul li a{
-  color: #000000;
+  color: #ffffff;
 }
 
 
