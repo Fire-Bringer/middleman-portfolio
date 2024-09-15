@@ -16,13 +16,13 @@
   figma: true
   info: https://rashaddupaty.netlify.app/bfw
 
-- name: 1948 Hostel - Your Mom's House
+- name: Cafe Koharu
   id: two
   role: UX/UI Designer / Fullstack Developer
-  description: A family-run hostel in Chiang Mai, Thailand. Introduces new travelers to the region as well as organized tours upon request.
-  mockup: projects/1948/1948_mockupv2.png
-  url: https://www.uqedu.org
-  github: https://github.com/Fire-Bringer/UQ
+  description: A fictional cafe in the Kahoku area.
+  mockup: projects/cafekoharu/koharu_mockup.webp
+  url: https://cafehokaru.netlify.app/
+  github: https://github.com/Fire-Bringer/middleman-hibini-website
   online: false
   features: false
   code: false
