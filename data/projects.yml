@@ -1,12 +1,12 @@
-- name: Blue Flowers Wellness
+- name: Vinyl Cafe
   id: one
-  role: UX/UI Designer / Fullstack Developer
-  description: A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
-  mockup: projects/blueflowers/bf_mockupv2.png
-  url: https://blue-flowers-wellness-485c6c844258.herokuapp.com/
-  github: https://github.com/Fire-Bringer/BF-Wellness
+  role: UX/UI Designer / Frontend Developer
+  description: A base template for a vinyl cafe.
+  mockup: projects/vinylcafe/vinyl_mockup.webp
+  url: https://vinylcafe.netlify.app/
+  github: https://github.com/Fire-Bringer/middleman-melting-pot-website
   online: true
-  features: false
+  features: true
   code: true
   rails: true
   html: true
@@ -14,10 +14,28 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/bfw
+  info: https://rashaddupaty.netlify.app/f4b
+
+- name: Photography Template
+  id: two
+  role: UX/UI Designer / Frontend Developer
+  description: A base template for a photographer portfolio.
+  mockup: projects/avaphotography/photo_mockup.webp
+  url: https://avaphotography.netlify.app/
+  github: https://github.com/Fire-Bringer/photography-template
+  online: true
+  features: false
+  code: true
+  rails: true
+  html: true
+  css: true
+  javascript: true
+  sql: false
+  figma: true
+  info: https://rashaddupaty.netlify.app/harrys
 
 - name: Cafe Koharu
-  id: two
+  id: three
   role: UX/UI Designer / Fullstack Developer
   description: A fictional cafe in the Kahoku area.
   mockup: projects/cafekoharu/koharu_mockup3.webp
@@ -34,13 +52,13 @@
   figma: true
   info: https://rashaddupaty.netlify.app/uq
 
-- name: Harry's Sandwich Company
-  id: three
-  role: UX/UI Designer / Frontend Developer
-  description: A homepage for an American restaurant within Harajuku in Tokyo. They specialize in sandwiches, craft beer and great community events with music and crafts.
-  mockup: projects/harrys/harry_mockupv2.png
-  url: https://harryssandwichcompany.netlify.app/
-  github: https://github.com/Fire-Bringer/middleman-harrys-lp
+- name: Blue Flowers Wellness
+  id: four
+  role: UX/UI Designer / Fullstack Developer
+  description: A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
+  mockup: projects/blueflowers/bf_mockup.webp
+  url: https://blue-flowers-wellness-485c6c844258.herokuapp.com/
+  github: https://github.com/Fire-Bringer/BF-Wellness
   online: true
   features: false
   code: true
@@ -48,15 +66,15 @@
   html: true
   css: true
   javascript: true
-  sql: false
+  sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/harrys
+  info: https://rashaddupaty.netlify.app/bfw
 
 - name: Dreamers4Change
-  id: four
+  id: five
   role: UX/UI Designer / Fullstack Developer
   description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world. [Responsive]
-  mockup: projects/dreamers4change/d4cmockup2.png
+  mockup: projects/dreamers4change/dreamers_mockup.webp
   url: https://dreamers4change.netlify.app/
   github: https://github.com/Fire-Bringer/middleman-dreamers4change
   online: true
@@ -71,7 +89,7 @@
   info: https://rashaddupaty.netlify.app/d4c
 
 - name: UQ - Your Intelligence
-  id: five
+  id: six
   role: Project Manager / Fullstack Developer
   description: An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
   mockup: projects/uq/uq_mockup3.png
@@ -87,21 +105,3 @@
   sql: true
   figma: true
   info: https://rashaddupaty.netlify.app/uq
-
-- name: Friends 4 Benefits
-  id: six
-  role: Project Manager / Fullstack Developer
-  description: A social app which helps people find new friends through mutual hobbies. People can look for new friends or offer an activity to invite others to join them. Features include calendar booking, image uploading, and private chat.
-  mockup: projects/friends4benefits/f4b_mockup3.png
-  url: https://friends4benefits-c2cabb89a5bb.herokuapp.com/
-  github: https://github.com/HappyDay101/Friends-4-Benefits
-  online: true
-  features: true
-  code: true
-  rails: true
-  html: true
-  css: true
-  javascript: true
-  sql: true
-  figma: true
-  info: https://rashaddupaty.netlify.app/f4b

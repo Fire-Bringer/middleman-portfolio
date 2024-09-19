@@ -1,528 +1,508 @@
-<!-- Navbar Section -->
-<%#= partial 'partials/navbar' %>
+<!-- Start header -->
+<header class="head1">
+    <div class="container">
+        <div class="row">
+            <div class="brand-name">
+                <!--<a href="#" class="logo">RA-Dev</a>-->
+            </div>
 
-<!--Main Content-->
-<!--<div class="container">-->
-  <!-- Banner Section -->
-  <%#= partial 'partials/banner' %>
-  <!-- About Section -->
-  <%#= partial 'partials/about' %>
-  <!-- Projects Section -->
-  <%#= partial 'partials/projects' %>
-  <!-- Social Links Section -->
-  <%#= partial 'partials/social' %>
-  <!-- Footer Section -->
-  <%#= partial 'partials/footer' %>
-<!--</div>-->
+            <div class="ham-burger">
+                <i class="fa fa-bars"></i>
+            </div>
 
-    <!-- Start header -->
-    <header class="head1">
-        <div class="container">
-            <div class="row">
-                <div class="brand-name">
-                    <!--<a href="#" class="logo">RA-Dev</a>-->
-                </div>
-
-                <div class="ham-burger">
-                    <i class="fa fa-bars"></i>
-                </div>
-
-                <div class="navbar">
-                    <%= image_tag "white_logo_transparent_background.png", class:"white-emblem" %>
-                    <%= image_tag "base_logo_transparent_background.png", class:"black-emblem" %>
-                    <ul>
-                        <li><a href="#Home" class="active">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#Portfolio">Portfolio</a></li>
-                        <li><a href="#Contacts">Contacts</a></li>
-                    </ul>
-                </div>
+            <div class="navbar">
+                <%= image_tag "white_logo_transparent_background.png", class:"white-emblem" %>
+                <%= image_tag "base_logo_transparent_background.png", class:"black-emblem" %>
+                <ul>
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
             </div>
         </div>
-    </header>
-
-    <!-- End Header -->
-
-    <!--Mobile Header-->
-    <header class="head2">
-      <nav class="navbar2">
-        <%= image_tag "white_logo_transparent_background.png", class:"white-emblem" %>
-
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="#Home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#About" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Services" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Contacts" class="nav-link">Contacts</a>
-          </li>
-        </ul>
-
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-
-      </nav>
-    </header>
-    <!--Mobile Header End-->
-
-
-    <!-- Start Home -->
-    <section class="Home" id="Home">
-        <Div class="container">
-            <div class="row full-screen">
-                <div class="Home-content">
-                    <div class="block">
-                        <h6>Hello, My Name is</h6>
-                        <h1>Rashad DuPaty</h1>
-                        <h3>Full Stack Developer</h3>
-                        <div class="cv-btn">
-                            <a href=#Contacts>LINK UP</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </Div>
-    </section>
-    <!-- End Home -->
-
-    <!-- Start About -->
-    <section class="about-me" id="About">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h1>About Me</h1>
-                    <p class="small text-uppercase">Behind The Screen</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="about-content">
-                    <div class="row">
-                        <div class="img">
-                            <%= image_tag 'CafeProfile.webp' %>
-                            <!--<img src="lwprofile.jpeg" alt="About Me">-->
-                        </div>
-                        <div class="text">
-                            <h4>I'm Rashad DuPaty</h4>
-                            <h6>A Freelance <span>Fullstack</span> Developer & <span> UX/UI </span>Designer based in <span>Japan</span></h6>
-                            <p>
-                                I specialize in communication to always make sure my client's needs are recognized, discussed and met to expectations.
-                                When not working, I enjoy a variety of other activities such as traveling, sports, games and hosting music events while DJing.
-                            </p>
-                            <p>
-                              私は常にクライアントのニーズが認識され、議論され、期待に応えられるようコミュニケーションを専門としています。
-                              仕事以外では、DJをしながら旅行、スポーツ、ゲーム、音楽イベントの主催など、さまざまな活動を楽しんでいます。
-                            </p>
-                            <div class="info">
-                                <div class="list">
-                                    <label>Hometown:</label>
-                                    <p>Sacramento, California</p>
-                                </div>
-                                <div class="list">
-                                    <label>Residance:</label>
-                                    <p>Ishikawa, Japan</p>
-                                </div>
-                                <div class="list">
-                                    <label>Languages:</label>
-                                    <p>English & Japanese</p>
-                                </div>
-                                <div class="list">
-                                    <label>Email:</label>
-                                    <p>rashaddupaty@gmail.com</p>
-                                </div>
-                                <div class="list">
-                                    <label>Current Book:</label>
-                                    <p>Storyworthy</p>
-                                </div>
-                                <div class="list">
-                                    <label>Current Game:</label>
-                                    <p>Persona 3: Reloaded</p>
-                                </div>
-                                <div class="list">
-                                    <label>Sports:</label>
-                                    <p>American Football, Baseball, Basketball</p>
-                                </div>
-                                <div class="list">
-                                    <label>Music:</label>
-                                    <p>Hip-Hop, Jazz, Soul, Lo-Fi</p>
-                                </div>
-
-
-
-                            </div>
-
-                            <!-- Social-link -->
-                            <div class="social-links">
-                                <a href="https://github.com/Fire-Bringer"><i class="fa-brands fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/rashaddupaty/"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://www.instagram.com/barret_wallace/"><i class="fa-brands fa-instagram"></i></a>
-                            </div>
-                            <!-- End Social-links -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End About -->
-
-    <!-- Start Services -->
-    <section class="services" id="Services">
-        <div class="container">
-            <div class="row">
-                <div class="section-title text-center">
-                    <h1>Services</h1>
-                </div>
-            </div>
-            <div class="services-content">
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-laptop"></i>
-                    </div>
-                    <h5>Design Strategy</h5>
-                    <p>Discuss and plan out your needs for UX/UI design</p>
-                    <p>UX/UI デザインのニーズについて話し合い、計画を立てる</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-columns"></i>
-                    </div>
-                    <h5>Prototyping</h5>
-                    <p>Make adjustments to your designs with high-fedelity prototyping</p>
-                    <p>再現性の高いプロトタイピングでデザインを調整</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-code"></i>
-                    </div>
-                    <h5>Backend Development</h5>
-                    <p>Customized creation of your site/app's system</p>
-                    <p>サイト/アプリのシステムをカスタマイズして作成</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-mobile"></i>
-                    </div>
-                    <h5>Frontend Development</h5>
-                    <p>Customized coding according to planned designs</p>
-                    <p>計画された設計に応じたカスタマイズされたコーディング</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-search"></i>
-                    </div>
-                    <h5>Search Engine Optimization</h5>
-                    <p>Improve unpaid website traffic to your site</p>
-                    <p>サイトへの無料 Web サイト トラフィックを改善する</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-cog"></i>
-                    </div>
-                    <h5>Maintenance & Support</h5>
-                    <p>Ongoing maintenance with updates and support</p>
-                    <p>アップデートとサポートによる継続的なメンテナンス</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- End Services -->
-
-    <!-- Start skills -->
-    <section class="skills">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="skills-content">
-                    <div class="row">
-                        <div class="section-title">
-                            <h1>PROFESSIONAL SKILLS</h1>
-                            <p>Learning new skills with each project</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="skill-box">
-                            <h6>HTML / CSS / SCSS</h6>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" style="width: 90%">
-                                    <span>90%</span>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skill-box">
-                            <h6>Java-Script</h6>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" style="width: 85%">
-                                    <span>85%</span>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill-box">
-                            <h6>Ruby On Rails</h6>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" style="width: 82%">
-                                    <span>82%</span>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill-box">
-                            <h6>UI/UX</h6>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" style="width: 87%">
-                                    <span>87%</span>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="img">
-                  <%= image_tag 'DJImage.webp' %>
-                  <!--<img src="images/skill.jpg" alt="skill">-->
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!-- end Skills -->
-
-    <!-- Start Portfolio Work -->
-    <section class="portfolio" id="Portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="section-title text-center">
-                    <h1>Latest Work</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="filter-buttons">
-                    <ul id="filter-btns">
-                        <li class="active" data-target="all">ALL</li>
-                        <li data-target="Responsive">RESPONSIVE</li>
-                        <li data-target="Mobile">MOBILE</li>
-                        <li data-target="Desktop">DESKTOP</li>
-                        <li data-target="Designs">DESIGNS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="portfolio-gallery">
-
-                    <div class="item" data-id="Design">
-                        <div class="inner">
-                            <%= image_tag data.projects[1].mockup %>
-                            <div class="overlay">
-                                <span class="fa fa-globe"></span>
-                                <h4>Cafe Koharu</h4>
-                                <h5>Cafe Restaurant Design</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item" data-id="Branding">
-                        <div class="inner">
-                          <%= image_tag data.projects[0].mockup %>
-                            <!--<img src="images/portfolio/1.jpg" alt="portfolio">-->
-                            <% link_to data.projects[0].info.to_s do %>
-                              <div class="overlay">
-                                <span class="fa fa-info"></span>
-                                <h4>Blue Flowers Wellness</h4>
-                                <h5>Ecommerce Website</h5>
-                              </div>
-                            <% end %>
-                        </div>
-                    </div>
-
-                    <div class="item" data-id="Fashion">
-                        <div class="inner">
-                            <%= image_tag data.projects[2].mockup %>
-                            <% link_to data.projects[2].info.to_s do %>
-                              <div class="overlay">
-                                <span class="fa fa-info"></span>
-                                <h4>Harry's Sandwich Company</h4>
-                                <h5>Restaurant Landing Page</h5>
-                              </div>
-                            <% end %>
-                        </div>
-                    </div>
-
-                    <div class="item" data-id="Fashion">
-                        <div class="inner">
-                            <%= image_tag data.projects[3].mockup %>
-                            <% link_to data.projects[3].info.to_s do %>
-                              <div class="overlay">
-                                <span class="fa fa-info"></span>
-                                <h4>Dreamers4Change</h4>
-                                <h5>Charity Landing Page</h5>
-                              </div>
-                            <% end %>
-                        </div>
-                    </div>
-
-                    <div class="item" data-id="Branding">
-                        <div class="inner">
-                            <%= image_tag data.projects[4].mockup %>
-                            <% link_to data.projects[4].info.to_s do %>
-                              <div class="overlay">
-                                <span class="fa fa-info"></span>
-                                <h4>UQ - Your Intelligence</h4>
-                                <h5>Education App</h5>
-                              </div>
-                            <% end %>
-                        </div>
-                    </div>
-
-                    <div class="item" data-id="Branding">
-                        <div class="inner">
-                            <%= image_tag data.projects[5].mockup %>
-                            <% link_to data.projects[5].info.to_s do %>
-                              <div class="overlay">
-                              <span class="fa fa-info"></span>
-                                <h4>Friends 4 Benefits</h4>
-                                <h5>Social Networking App</h5>
-                              </div>
-                            <% end %>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-    </section>
-
-
-
-    <!-- End Portfolio Work -->
-
-    <!-- start Lightbox -->
-
-    <div class="lightbox">
-        <span class="close-lightbox fa fa-close"></span>
-        <!--<img src="images/portfolio/6.jpg" alt="portfolio">-->
     </div>
-    <!-- End light box -->
+</header>
 
-    <!-- Start message -->
-    <section class="message-text">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="text">
-                    <h2>I'm available for free consultations to learn your needs anytime.</h2>
-                </div>
-                <div class="button">
-                    <a href="#Contacts">Link Up</a>
+<!-- End Header -->
+
+<!--Mobile Header-->
+<header class="head2">
+  <nav class="navbar2">
+    <%= image_tag "white_logo_transparent_background.png", class:"white-emblem" %>
+
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="#Home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#About" class="nav-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#Services" class="nav-link">Services</a>
+      </li>
+      <li class="nav-item">
+        <a href="#Portfolio" class="nav-link">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#Contacts" class="nav-link">Contacts</a>
+      </li>
+    </ul>
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+  </nav>
+</header>
+<!--Mobile Header End-->
+
+
+<!-- Start Home -->
+<section class="Home" id="Home">
+    <Div class="container">
+        <div class="row full-screen">
+            <div class="Home-content">
+                <div class="block">
+                    <h6>Hello, My Name is</h6>
+                    <h1>Rashad DuPaty</h1>
+                    <h3>Full Stack Developer</h3>
+                    <div class="cv-btn">
+                        <a href=#Contacts>LINK UP</a>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End message -->
+    </Div>
+</section>
+<!-- End Home -->
 
-
-    <!-- Start Contact Us -->
-
-    <section class="contact-us" id="Contacts">
-        <div class="container">
-            <div class="row">
-                <div class="section-title text-center">
-                    <h1>CONTACT ME</h1>
-                </div>
-            </div>
-            <div class="row">
-              <form action="https://formsubmit.co/1150c4ac2a335edad30d9d75bf30943f" method="POST">
-              <input type="hidden" name="_subject" value="DEV REQUEST">
-              <input type="hidden" name="_autoresponse" value="Thank you for your question! I'll get back to you as soon as possible.">
-                <div class="contact-form">
-                    <div class="row">
-                        <div class="text">
-                            <h2>Drop me a line!</h2>
-                            <p>I'm here to answer any question you may have anytime.</p>
-                        </div>
-                    </div>
-                    <div class="row space-between">
-                        <div class="col-6">
-                            <input type="text" class="form-control" name="name" required placeholder="Name">
-                        </div>
-                        <div class="col-6">
-                            <input type="email" class="form-control" name="email" required placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <textarea class="form-control" name="message" placeholder="How can I help you?"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="button text-right">
-                            <button class="contact-send" type="submit">Send</button>
-                        </div>
-                    </div>
-                </div>
-              </form>
+<!-- Start About -->
+<section class="about-me" id="About">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h1>About Me</h1>
+                <p class="small text-uppercase">Behind The Screen</p>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="about-content">
+                <div class="row">
+                    <div class="img">
+                        <%= image_tag 'CafeProfile.webp' %>
+                        <!--<img src="lwprofile.jpeg" alt="About Me">-->
+                    </div>
+                    <div class="text">
+                        <h4>I'm Rashad DuPaty</h4>
+                        <h6>A Freelance <span>Fullstack</span> Developer & <span> UX/UI </span>Designer based in <span>Japan</span></h6>
+                        <p>
+                            I specialize in communication to always make sure my client's needs are recognized, discussed and met to expectations.
+                            When not working, I enjoy a variety of other activities such as traveling, sports, games and hosting music events while DJing.
+                        </p>
+                        <p>
+                          私は常にクライアントのニーズが認識され、議論され、期待に応えられるようコミュニケーションを専門としています。
+                          仕事以外では、DJをしながら旅行、スポーツ、ゲーム、音楽イベントの主催など、さまざまな活動を楽しんでいます。
+                        </p>
+                        <div class="info">
+                            <div class="list">
+                                <label>Hometown:</label>
+                                <p>Sacramento, California</p>
+                            </div>
+                            <div class="list">
+                                <label>Residance:</label>
+                                <p>Ishikawa, Japan</p>
+                            </div>
+                            <div class="list">
+                                <label>Languages:</label>
+                                <p>English & Japanese</p>
+                            </div>
+                            <div class="list">
+                                <label>Email:</label>
+                                <p>rashaddupaty@gmail.com</p>
+                            </div>
+                            <div class="list">
+                                <label>Current Book:</label>
+                                <p>Storyworthy</p>
+                            </div>
+                            <div class="list">
+                                <label>Current Game:</label>
+                                <p>Persona 3: Reloaded</p>
+                            </div>
+                            <div class="list">
+                                <label>Sports:</label>
+                                <p>American Football, Baseball, Basketball</p>
+                            </div>
+                            <div class="list">
+                                <label>Music:</label>
+                                <p>Hip-Hop, Jazz, Soul, Lo-Fi</p>
+                            </div>
 
 
-    <!-- End Contact us -->
 
-    <!-- Start Footer -->
-    <footer>
-        <div class="container">
-            <div class="row footer-row">
-                <!--<div class="logo">
-                    RA-Dev
-                </div>-->
-                <%= image_tag "base_textlogo_transparent_background_trimmed.png", class:"footer-emblem" %>
-                <div class="social">
-                    <a href="https://github.com/Fire-Bringer"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/barret_wallace/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/rashaddupaty/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                        <!-- Social-link -->
+                        <div class="social-links">
+                            <a href="https://github.com/Fire-Bringer"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rashaddupaty/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/barret_wallace/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <!-- End Social-links -->
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <!-- End Footer -->
+<!-- End About -->
 
-    <!-- Start copy right -->
-    <section class="copyright">
-        <div class="container">
-            <p>&copy; 2024 RA-Dev</p>
+<!-- Start Services -->
+<section class="services" id="Services">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h1>Services</h1>
+            </div>
         </div>
-    </section>
+        <div class="services-content">
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-laptop"></i>
+                </div>
+                <h5>Design Strategy</h5>
+                <p>Discuss and plan out your needs for UX/UI design</p>
+                <p>UX/UI デザインのニーズについて話し合い、計画を立てる</p>
+            </div>
 
-    <!-- End copy right -->
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-columns"></i>
+                </div>
+                <h5>Prototyping</h5>
+                <p>Make adjustments to your designs with high-fedelity prototyping</p>
+                <p>再現性の高いプロトタイピングでデザインを調整</p>
+            </div>
 
-</body>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-code"></i>
+                </div>
+                <h5>Backend Development</h5>
+                <p>Customized creation of your site/app's system</p>
+                <p>サイト/アプリのシステムをカスタマイズして作成</p>
+            </div>
 
-</html>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-mobile"></i>
+                </div>
+                <h5>Frontend Development</h5>
+                <p>Customized coding according to planned designs</p>
+                <p>計画された設計に応じたカスタマイズされたコーディング</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-search"></i>
+                </div>
+                <h5>Search Engine Optimization</h5>
+                <p>Improve unpaid website traffic to your site</p>
+                <p>サイトへの無料 Web サイト トラフィックを改善する</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa fa-cog"></i>
+                </div>
+                <h5>Maintenance & Support</h5>
+                <p>Ongoing maintenance with updates and support</p>
+                <p>アップデートとサポートによる継続的なメンテナンス</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- End Services -->
+
+<!-- Start skills -->
+<section class="skills">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="skills-content">
+                <div class="row">
+                    <div class="section-title">
+                        <h1>PROFESSIONAL SKILLS</h1>
+                        <p>Learning new skills with each project</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="skill-box">
+                        <h6>HTML / CSS / SCSS</h6>
+                        <div class="skill-bar">
+                            <div class="skill-bar-in" style="width: 90%">
+                                <span>90%</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skill-box">
+                        <h6>Java-Script</h6>
+                        <div class="skill-bar">
+                            <div class="skill-bar-in" style="width: 85%">
+                                <span>85%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <h6>Ruby On Rails</h6>
+                        <div class="skill-bar">
+                            <div class="skill-bar-in" style="width: 82%">
+                                <span>82%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <h6>UI/UX</h6>
+                        <div class="skill-bar">
+                            <div class="skill-bar-in" style="width: 87%">
+                                <span>87%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="img">
+              <%= image_tag 'DJImage.webp' %>
+              <!--<img src="images/skill.jpg" alt="skill">-->
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!-- end Skills -->
+
+<!-- Start Portfolio Work -->
+<section class="portfolio" id="Portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h1>Latest Work</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="filter-buttons">
+                <ul id="filter-btns">
+                    <li class="active" data-target="all">ALL</li>
+                    <li data-target="Responsive">RESPONSIVE</li>
+                    <li data-target="Mobile">MOBILE</li>
+                    <li data-target="Desktop">DESKTOP</li>
+                    <li data-target="Designs">DESIGNS</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-gallery">
+
+                <div class="item" data-id="Design">
+                  <div class="inner">
+                    <%= image_tag data.projects[0].mockup %>
+                    <% link_to data.projects[0].url.to_s, target: "_blank" do %>
+                      <div class="overlay">
+                        <span class="fa fa-globe"></span>
+                        <h4>Vinyl Cafe</h4>
+                        <h5>Shop Website</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+                <div class="item" data-id="Branding">
+                  <div class="inner">
+                    <%= image_tag data.projects[1].mockup %>
+                    <% link_to data.projects[1].url.to_s, target: "_blank" do %>
+                      <div class="overlay">
+                        <span class="fa fa-globe"></span>
+                        <h4>Avaphotography</h4>
+                        <h5>Photography Portfolio</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+                <div class="item" data-id="Fashion">
+                  <div class="inner">
+                    <%= image_tag data.projects[2].mockup %>
+                    <% link_to data.projects[2].url.to_s, target: "_blank" do %>
+                      <div class="overlay">
+                        <span class="fa fa-globe"></span>
+                        <h4>Cafe Koharu</h4>
+                        <h5>Shop Website</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+                <div class="item" data-id="Fashion">
+                  <div class="inner">
+                    <%= image_tag data.projects[3].mockup %>
+                    <% link_to data.projects[3].info.to_s do %>
+                      <div class="overlay">
+                        <span class="fa fa-info"></span>
+                        <h4>Blue Flowers Wellness</h4>
+                        <h5>Ecommerce Website</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+                <div class="item" data-id="Branding">
+                  <div class="inner">
+                    <%= image_tag data.projects[4].mockup %>
+                    <% link_to data.projects[4].info.to_s do %>
+                      <div class="overlay">
+                        <span class="fa fa-info"></span>
+                        <h4>Dreamers 4 Change</h4>
+                        <h5>Charity Website</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+                <div class="item" data-id="Branding">
+                  <div class="inner">
+                    <%= image_tag data.projects[5].mockup %>
+                    <% link_to data.projects[5].info.to_s do %>
+                      <div class="overlay">
+                      <span class="fa fa-info"></span>
+                        <h4>UQ - Your Intelligence</h4>
+                        <h5>Education App</h5>
+                      </div>
+                    <% end %>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- End Portfolio Work -->
+
+<!-- start Lightbox -->
+
+<div class="lightbox">
+    <span class="close-lightbox fa fa-close"></span>
+    <!--<img src="images/portfolio/6.jpg" alt="portfolio">-->
+</div>
+<!-- End light box -->
+
+<!-- Start message -->
+<section class="message-text">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="text">
+                <h2>I'm available for free consultations to learn your needs anytime.</h2>
+            </div>
+            <div class="button">
+                <a href="#Contacts">Link Up</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End message -->
+
+
+<!-- Start Contact Us -->
+
+<section class="contact-us" id="Contacts">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h1>CONTACT ME</h1>
+            </div>
+        </div>
+        <div class="row">
+          <form action="https://formsubmit.co/1150c4ac2a335edad30d9d75bf30943f" method="POST">
+          <input type="hidden" name="_subject" value="DEV REQUEST">
+          <input type="hidden" name="_autoresponse" value="Thank you for your question! I'll get back to you as soon as possible.">
+            <div class="contact-form">
+                <div class="row">
+                    <div class="text">
+                        <h2>Drop me a line!</h2>
+                        <p>I'm here to answer any question you may have anytime.</p>
+                    </div>
+                </div>
+                <div class="row space-between">
+                    <div class="col-6">
+                        <input type="text" class="form-control" name="name" required placeholder="Name">
+                    </div>
+                    <div class="col-6">
+                        <input type="email" class="form-control" name="email" required placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <textarea class="form-control" name="message" placeholder="How can I help you?"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button text-right">
+                        <button class="contact-send" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+</section>
+
+
+<!-- End Contact us -->
+
+<!-- Start Footer -->
+<footer>
+    <div class="container">
+        <div class="row footer-row">
+            <!--<div class="logo">
+                RA-Dev
+            </div>-->
+            <%= image_tag "base_textlogo_transparent_background_trimmed.png", class:"footer-emblem" %>
+            <div class="social">
+                <a href="https://github.com/Fire-Bringer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/barret_wallace/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rashaddupaty/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- End Footer -->
+
+<!-- Start copy right -->
+<section class="copyright">
+    <div class="container">
+        <p>&copy; 2024 RA-Dev</p>
+    </div>
+</section>
+
+<!-- End copy right -->
