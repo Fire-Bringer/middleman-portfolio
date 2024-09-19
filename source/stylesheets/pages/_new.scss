@@ -1128,8 +1128,10 @@ footer .social a{
       max-width: 100%;
     }
   .about-me .about-content .text .info .list p{
-
       flex:0 0 100% ;
+    }
+    .portfolio .portfolio-gallery .item .overlay{
+      opacity: 1;
     }
   }
 
