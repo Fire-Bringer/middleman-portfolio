@@ -95,7 +95,7 @@
   mockup: projects/uq/uq_mockup3.png
   url: https://www.uqedu.org
   github: https://github.com/Fire-Bringer/UQ
-  online: true
+  online: false
   features: true
   code: true
   rails: true
