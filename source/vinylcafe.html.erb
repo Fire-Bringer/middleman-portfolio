@@ -1,0 +1,75 @@
+<%= partial 'partials/info_navbar' %>
+
+<section class="skills">
+  <div class="container">
+    <div class="row align-items-center">
+        <div class="skills-content">
+            <div class="row">
+                <div class="section-title">
+                    <h1>Vinyl Cafe</h1>
+                    <p>
+                      A landing page made for a medium-sized vinyl music cafe within Kanazawa in mind. The cafe features a prominence of classic American hip-hop which is reflected within the introductory animation.
+                    </p>
+                    <div class="tech-stack">
+                      <% if data.projects[5].rails? %>
+                        <i class="devicon-rails-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[5].html? %>
+                        <i class="devicon-html5-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[5].css? %>
+                        <i class="devicon-css3-plain-wordmark tech"></i>
+                      <% end %>
+                      <% if data.projects[5].javascript? %>
+                        <i class="devicon-javascript-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[5].sql? %>
+                        <i class="devicon-azuresqldatabase-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[5].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                    </div>
+                    <div class="project-links">
+                      <% if data.projects[5].code? %>
+                        <% link_to data.projects[5].github, target: '_blank' do %>
+                          <i class="fa-brands fa-github project-link"></i>
+                        <% end %>
+                      <% end %>
+                      <% if data.projects[5].online? %>
+                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                          <i class="fa-solid fa-globe project-link"></i>
+                        <% end %>
+                      <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img">
+          <%= image_tag 'projects/uq/uq_home.png' %>
+          <!--<img src="images/skill.jpg" alt="skill">-->
+        </div>
+    </div>
+  </div>
+</section>
+
+<div class="gallery-wrap">
+  <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
+    <div class="gallery">
+      <div>
+        <span><%= image_tag 'projects/uq/lessons.png' %></span>
+        <span><%= image_tag 'projects/uq/students.png' %></span>
+        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+      </div>
+      <div>
+        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
+        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
+        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+      </div>
+    </div>
+  <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>
+</div>
+
+<%= partial 'partials/new_footer' %>
+
+<script src="/javascripts/info.js"></script>
