@@ -14,7 +14,7 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/gravityroom
+  info: https://rashaddupaty.netlify.app/gravityroom.html
 
 - name: Avaphotography
   id: two
@@ -32,7 +32,7 @@
   javascript: true
   sql: false
   figma: true
-  info: https://rashaddupaty.netlify.app/avaphotography
+  info: https://rashaddupaty.netlify.app/avaphotography.html
 
 - name: Ai Messenger Session
   id: three
@@ -50,7 +50,7 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/aimessenger
+  info: https://rashaddupaty.netlify.app/aimessenger.html
 
 - name: Cafe Koharu
   id: four
@@ -68,7 +68,7 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/cafekoharu
+  info: https://rashaddupaty.netlify.app/cafekoharu.html
 
 - name: Vinyl Cafe
   id: five
@@ -86,7 +86,7 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/vinylcafe
+  info: https://rashaddupaty.netlify.app/vinylcafe.html
 
 - name: NippoNavi
   id: six
@@ -104,4 +104,4 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/nipponavi
+  info: https://rashaddupaty.netlify.app/nipponavi.html
