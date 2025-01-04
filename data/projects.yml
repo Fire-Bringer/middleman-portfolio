@@ -98,9 +98,9 @@
   online: false
   features: true
   code: true
-  rails: true
-  html: true
-  css: true
+  rails: false
+  html: false
+  css: false
   javascript: true
   sql: true
   figma: true
