@@ -1,10 +1,10 @@
-- name: Vinyl Cafe
+- name: Gravity Room
   id: one
-  role: UX/UI Designer / Frontend Developer
-  description: A base template for a vinyl cafe.
+  role: Web Designer / Frontend Developer
+  description: An ongoing project for a freelance video editor and translator. Designed with simplicity and a space theme to place more emphasis on the videos and images.
   mockup: projects/vinylcafe/vinyl_mockup.webp
-  url: https://vinylcafe.netlify.app/
-  github: https://github.com/Fire-Bringer/middleman-melting-pot-website
+  url: https://gravity-room.netlify.app
+  github: https://github.com/Fire-Bringer/gravity-room
   online: true
   features: true
   code: true
@@ -14,14 +14,14 @@
   javascript: true
   sql: true
   figma: true
-  info: N/A
+  info: https://rashaddupaty.netlify.app/gravityroom
 
-- name: Photography Template
+- name: Avaphotography
   id: two
-  role: UX/UI Designer / Frontend Developer
-  description: A base template for a photographer portfolio.
+  role: Web Designer / Frontend Developer
+  description: A landing page made for a freelance photographer in mind. Designed with simplicity and darkness in mind to give more focus towards the images.
   mockup: projects/avaphotography/photo_mockup.webp
-  url: https://avaphotography.netlify.app/
+  url: https://avaphotography.netlify.app
   github: https://github.com/Fire-Bringer/photography-template
   online: true
   features: false
@@ -32,15 +32,15 @@
   javascript: true
   sql: false
   figma: true
-  info: N/A
+  info: https://rashaddupaty.netlify.app/avaphotography
 
-- name: Cafe Koharu
+- name: Ai Messenger Session
   id: three
-  role: UX/UI Designer / Fullstack Developer
-  description: A fictional cafe in the Kahoku area.
+  role: Web Designer / Frontend Developer
+  description: A landing page made for a freelance spiritual coach client. Designed with soft colors and a spiritual aesthetic per her own images choices.
   mockup: projects/cafekoharu/koharu_mockup3.webp
-  url: https://cafehokaru.netlify.app/
-  github: https://github.com/Fire-Bringer/middleman-hibini-website
+  url: https://aicupidoflove.netlify.app
+  github: https://github.com/Fire-Bringer/ai-messenger-session-lp
   online: false
   features: false
   code: false
@@ -50,15 +50,15 @@
   javascript: true
   sql: true
   figma: true
-  info: N/A
+  info: https://rashaddupaty.netlify.app/aimessenger
 
-- name: Blue Flowers Wellness
+- name: Cafe Koharu
   id: four
-  role: UX/UI Designer / Fullstack Developer
-  description: A wellness organization in Sacramento, CA which specializes handmade products for skincare and home comfort.
+  role: Web Designer / Frontend Developer
+  description: A landing page made for a small cafe within Kanazawa in mind. Designed with a calming aesthetic which reflects the soft nature of the owner and interior of the shop.
   mockup: projects/blueflowers/bf_mockup.webp
-  url: https://blue-flowers-wellness-485c6c844258.herokuapp.com/
-  github: https://github.com/Fire-Bringer/BF-Wellness
+  url: https://cafekoharu.netlify.app
+  github: https://github.com/Fire-Bringer/cafe-koharu-landing-page
   online: true
   features: false
   code: true
@@ -68,15 +68,15 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/bfw
+  info: https://rashaddupaty.netlify.app/cafekoharu
 
-- name: Dreamers4Change
+- name: Vinyl Cafe
   id: five
-  role: UX/UI Designer / Fullstack Developer
-  description: An community organization which is grounded in helping Black and Indigenous girls feel welcomed, safe and free to express themselves with other cultures from around the world. [Responsive]
+  role: Web Designer / Frontend Developer
+  description: A landing page made for a medium-sized vinyl music cafe within Kanazawa in mind. The cafe features a prominence of classic American hip-hop which is reflected within the introductory animation.
   mockup: projects/dreamers4change/dreamers_mockup.webp
-  url: https://dreamers4change.netlify.app/
-  github: https://github.com/Fire-Bringer/middleman-dreamers4change
+  url: https://vinylcafe.netlify.app
+  github: https://github.com/Fire-Bringer/melting-pot-cafe-website
   online: true
   features: false
   code: true
@@ -86,15 +86,15 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/d4c
+  info: https://rashaddupaty.netlify.app/vinylcafe
 
-- name: UQ - Your Intelligence
+- name: NippoNavi
   id: six
-  role: Project Manager / Fullstack Developer
-  description: An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments.
+  role: UX/UI Designer / Frontend Developer
+  description: An onging team project to create a blog website to help migrants in Japan.
   mockup: projects/uq/uq_mockup3.png
   url: https://www.uqedu.org
-  github: https://github.com/Fire-Bringer/UQ
+  github: https://github.com/Kitakits-tentative/kitakits-app
   online: false
   features: true
   code: true
@@ -104,4 +104,4 @@
   javascript: true
   sql: true
   figma: true
-  info: https://rashaddupaty.netlify.app/uq
+  info: https://rashaddupaty.netlify.app/nipponavi
