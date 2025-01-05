@@ -105,15 +105,15 @@
   mockup: projects/nipponavi/nipponavi-mockup.webp
   url: https://www.uqedu.org
   github: https://github.com/Kitakits-tentative/kitakits-app
-  code: true
+  code: false
   online: false
   figma: true
   photoshop: true
-  react: false
-  nextjs: false
-  typescript: false
-  rails: true
-  html: true
+  react: true
+  nextjs: true
+  typescript: true
+  rails: false
+  html: false
   css: true
   javascript: true
-  info: https://rashaddupaty.netlify.app/uq
+  info: https://rashaddupaty.netlify.app/nipponavi

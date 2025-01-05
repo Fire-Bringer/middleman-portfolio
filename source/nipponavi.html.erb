@@ -6,11 +6,38 @@
         <div class="skills-content">
             <div class="row">
                 <div class="section-title">
-                    <h1>UQ - YOUR INTELLIGENCE</h1>
+                    <h1>NippoNavi</h1>
                     <p>
-                      An education app which helps students learn through differentiated learning and AI assistance. Key features include a VARK evaluation, AI generated lesson content and an AI Q&A which helps students along with homework assignments. [Desktop / Laptop Only]
+                      TBA
+                      <br><br>
+                      FEATURES:
+                      <br>
+                      - TBA
+                      <br>
+                      - TBA
+                      <br>
+                      - TBA
+                      <br>
+                      - TBA
+                      <br>
+                      - TBA
                     </p>
                     <div class="tech-stack">
+                      <% if data.projects[5].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[5].photoshop? %>
+                        <i class="devicon-photoshop-plain"></i>
+                      <% end %>
+                      <% if data.projects[5].react? %>
+                        <i class="devicon-react-original"></i>
+                      <% end %>
+                      <% if data.projects[5].nextjs? %>
+                        <i class="devicon-nextjs-plain"></i>
+                      <% end %>
+                      <% if data.projects[5].typescript? %>
+                        <i class="devicon-typescript-plain"></i>
+                      <% end %>
                       <% if data.projects[5].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
@@ -22,12 +49,6 @@
                       <% end %>
                       <% if data.projects[5].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].sql? %>
-                        <i class="devicon-azuresqldatabase-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].figma? %>
-                        <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
@@ -46,8 +67,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/uq/uq_home.png' %>
-          <!--<img src="images/skill.jpg" alt="skill">-->
+          <%= image_tag 'projects/nipponavi/nipponavi-mockup.webp' %>
         </div>
     </div>
   </div>
@@ -55,16 +75,16 @@
 
 <div class="gallery-wrap">
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
-    <div class="gallery">
+    <div class="gallery nipponavi-gallery">
       <div>
-        <span><%= image_tag 'projects/uq/lessons.png' %></span>
-        <span><%= image_tag 'projects/uq/students.png' %></span>
-        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+        <span><%= image_tag 'projects/nipponavi/Homepage.webp' %></span>
+        <span><%= image_tag 'projects/nipponavi/Latest.webp' %></span>
+        <span><%= image_tag 'projects/nipponavi/Index.webp' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
-        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
-        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+        <span><%= image_tag 'projects/nipponavi/Article-Hero.webp' %></span>
+        <span><%= image_tag 'projects/nipponavi/Article-Subheader.webp' %></span>
+        <span><%= image_tag 'projects/nipponavi/Terms.webp' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>
