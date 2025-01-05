@@ -2,7 +2,7 @@
   id: one
   role: Web Designer / Frontend Developer
   description: An ongoing project for a freelance video editor and translator. Designed with simplicity and a space theme to place more emphasis on the videos and images.
-  mockup: projects/vinylcafe/vinyl_mockup.webp
+  mockup: projects/gravityroom/Gravity-Mockup.webp
   url: https://gravity-room.netlify.app
   github: https://github.com/Fire-Bringer/gravity-room
   online: true
@@ -38,7 +38,7 @@
   id: three
   role: Web Designer / Frontend Developer
   description: A landing page made for a freelance spiritual coach client. Designed with soft colors and a spiritual aesthetic per her own images choices.
-  mockup: projects/cafekoharu/koharu_mockup3.webp
+  mockup: projects/aimessenger/Spirit-Mockup.webp
   url: https://aicupidoflove.netlify.app
   github: https://github.com/Fire-Bringer/ai-messenger-session-lp
   online: false
@@ -56,7 +56,7 @@
   id: four
   role: Web Designer / Frontend Developer
   description: A landing page made for a small cafe within Kanazawa in mind. Designed with a calming aesthetic which reflects the soft nature of the owner and interior of the shop.
-  mockup: projects/blueflowers/bf_mockup.webp
+  mockup: projects/cafekoharu/koharu_mockup3.webp
   url: https://cafekoharu.netlify.app
   github: https://github.com/Fire-Bringer/cafe-koharu-landing-page
   online: true
@@ -74,7 +74,7 @@
   id: five
   role: Web Designer / Frontend Developer
   description: A landing page made for a medium-sized vinyl music cafe within Kanazawa in mind. The cafe features a prominence of classic American hip-hop which is reflected within the introductory animation.
-  mockup: projects/dreamers4change/dreamers_mockup.webp
+  mockup: projects/vinylcafe/vinyl_mockup.webp
   url: https://vinylcafe.netlify.app
   github: https://github.com/Fire-Bringer/melting-pot-cafe-website
   online: true
@@ -92,7 +92,7 @@
   id: six
   role: UX/UI Designer / Frontend Developer
   description: An onging team project to create a blog website to help migrants in Japan.
-  mockup: projects/uq/uq_mockup3.png
+  mockup: projects/nipponavi/nipponavi-mockup.webp
   url: https://www.uqedu.org
   github: https://github.com/Kitakits-tentative/kitakits-app
   online: false
