@@ -9,35 +9,56 @@
                     <h1>Gravity Room</h1>
                     <p>
                       An ongoing project for a freelance video editor and translator. Designed with simplicity and a space theme to place more emphasis on the videos and images.
+                      <br><br>
+                      FEATURES:
+                      <br>
+                      - a parallax hero section with 9 layers of cropped images through photoshop
+                      <br>
+                      - a simple portfolio section with embed Youtube videos
+                      <br>
+                      - a small gallery section
+                      <br>
+                      - widgets from Instagram and Spotify
+                      <br>
+                      - scroll animation which reveals content on scroll
                     </p>
                     <div class="tech-stack">
-                      <% if data.projects[5].rails? %>
+                      <% if data.projects[0].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[0].photoshop? %>
+                        <i class="devicon-photoshop-plain"></i>
+                      <% end %>
+                      <% if data.projects[0].react? %>
+                        <i class="devicon-react-original"></i>
+                      <% end %>
+                      <% if data.projects[0].nextjs? %>
+                        <i class="devicon-nextjs-plain"></i>
+                      <% end %>
+                      <% if data.projects[0].typescript? %>
+                        <i class="devicon-typescript-plain"></i>
+                      <% end %>
+                      <% if data.projects[0].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].html? %>
+                      <% if data.projects[0].html? %>
                         <i class="devicon-html5-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].css? %>
+                      <% if data.projects[0].css? %>
                         <i class="devicon-css3-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].javascript? %>
+                      <% if data.projects[0].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].sql? %>
-                        <i class="devicon-azuresqldatabase-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].figma? %>
-                        <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
-                      <% if data.projects[5].code? %>
-                        <% link_to data.projects[5].github, target: '_blank' do %>
+                      <% if data.projects[0].code? %>
+                        <% link_to data.projects[0].github, target: '_blank' do %>
                           <i class="fa-brands fa-github project-link"></i>
                         <% end %>
                       <% end %>
-                      <% if data.projects[5].online? %>
-                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                      <% if data.projects[0].online? %>
+                        <% link_to data.projects[0].url, class: 'globe', target: '_blank' do %>
                           <i class="fa-solid fa-globe project-link"></i>
                         <% end %>
                       <% end %>
@@ -46,8 +67,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/uq/uq_home.png' %>
-          <!--<img src="images/skill.jpg" alt="skill">-->
+          <%= image_tag 'projects/gravityroom/Gravity-Mockup.webp' %>
         </div>
     </div>
   </div>
@@ -57,14 +77,13 @@
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
-        <span><%= image_tag 'projects/uq/lessons.png' %></span>
-        <span><%= image_tag 'projects/uq/students.png' %></span>
-        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+        <span><%= image_tag 'projects/gravityroom/Gravity-Hero.webp' %></span>
+        <span><%= image_tag 'projects/gravityroom/Gravity-About.webp' %></span>
+        <span><%= image_tag 'projects/gravityroom/Gravity-Videos.webp' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
-        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
-        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+        <span><%= image_tag 'projects/gravityroom/Gravity-Gallery.webp' %></span>
+        <span><%= image_tag 'projects/gravityroom/Gravity-Widgets.webp' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>

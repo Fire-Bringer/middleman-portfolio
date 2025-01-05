@@ -9,35 +9,58 @@
                     <h1>Avaphotography</h1>
                     <p>
                       A landing page made for a freelance photographer in mind. Designed with simplicity and darkness in mind to give more focus towards the images.
+                      <br><br>
+                      FEATURES:
+                      <br>
+                      - a simple intro animation which reveals the hero through a fade-out animation
+                      <br>
+                      - a 360 degree hero image carousel with automatic transitions
+                      <br>
+                      - a different 360 degree image gallery carousel which automatically rotates through portrait images
+                      <br>
+                      - a landscape image gallery which reveals on scroll
+                      <br>
+                      - a modal popup which zooms on each landscape image
+                      <br>
+                      - a contact me section
                     </p>
                     <div class="tech-stack">
-                      <% if data.projects[5].rails? %>
+                      <% if data.projects[1].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[1].photoshop? %>
+                        <i class="devicon-photoshop-plain"></i>
+                      <% end %>
+                      <% if data.projects[1].react? %>
+                        <i class="devicon-react-original"></i>
+                      <% end %>
+                      <% if data.projects[1].nextjs? %>
+                        <i class="devicon-nextjs-plain"></i>
+                      <% end %>
+                      <% if data.projects[1].typescript? %>
+                        <i class="devicon-typescript-plain"></i>
+                      <% end %>
+                      <% if data.projects[1].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].html? %>
+                      <% if data.projects[1].html? %>
                         <i class="devicon-html5-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].css? %>
+                      <% if data.projects[1].css? %>
                         <i class="devicon-css3-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].javascript? %>
+                      <% if data.projects[1].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].sql? %>
-                        <i class="devicon-azuresqldatabase-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].figma? %>
-                        <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
-                      <% if data.projects[5].code? %>
-                        <% link_to data.projects[5].github, target: '_blank' do %>
+                      <% if data.projects[1].code? %>
+                        <% link_to data.projects[1].github, target: '_blank' do %>
                           <i class="fa-brands fa-github project-link"></i>
                         <% end %>
                       <% end %>
-                      <% if data.projects[5].online? %>
-                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                      <% if data.projects[1].online? %>
+                        <% link_to data.projects[1].url, class: 'globe', target: '_blank' do %>
                           <i class="fa-solid fa-globe project-link"></i>
                         <% end %>
                       <% end %>
@@ -46,8 +69,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/uq/uq_home.png' %>
-          <!--<img src="images/skill.jpg" alt="skill">-->
+          <%= image_tag 'projects/avaphotography/photo_mockup.webp' %>
         </div>
     </div>
   </div>
@@ -57,14 +79,14 @@
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
-        <span><%= image_tag 'projects/uq/lessons.png' %></span>
-        <span><%= image_tag 'projects/uq/students.png' %></span>
-        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-Intro.webp' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-Hero.webp' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-About.webp' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
-        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
-        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-Portrait.webp' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-Landscape.webp' %></span>
+        <span><%= image_tag 'projects/avaphotography/Photo-Contact.webp' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>

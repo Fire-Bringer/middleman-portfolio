@@ -8,36 +8,57 @@
                 <div class="section-title">
                     <h1>Ai Messenger</h1>
                     <p>
-                      A landing page made for a freelance spiritual coach client. Designed with soft colors and a spiritual aesthetic per her own images choices.
+                      A landing page made for a freelance spiritual coach client. Designed with soft colors and a spiritual aestheic per her own images choices.
+                      <br><br>
+                      FEATURES:
+                      <br>
+                      - a simple fade-in animation of the hero image
+                      <br>
+                      - simple image galleries which break up the different sections
+                      <br>
+                      - a glassmorphic card used within the About section
+                      <br>
+                      - a simple menu section
+                      <br>
+                      - a contact me section
                     </p>
                     <div class="tech-stack">
-                      <% if data.projects[5].rails? %>
+                      <% if data.projects[2].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[2].photoshop? %>
+                        <i class="devicon-photoshop-plain"></i>
+                      <% end %>
+                      <% if data.projects[2].react? %>
+                        <i class="devicon-react-original"></i>
+                      <% end %>
+                      <% if data.projects[2].nextjs? %>
+                        <i class="devicon-nextjs-plain"></i>
+                      <% end %>
+                      <% if data.projects[2].typescript? %>
+                        <i class="devicon-typescript-plain"></i>
+                      <% end %>
+                      <% if data.projects[2].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].html? %>
+                      <% if data.projects[2].html? %>
                         <i class="devicon-html5-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].css? %>
+                      <% if data.projects[2].css? %>
                         <i class="devicon-css3-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].javascript? %>
+                      <% if data.projects[2].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].sql? %>
-                        <i class="devicon-azuresqldatabase-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].figma? %>
-                        <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
-                      <% if data.projects[5].code? %>
-                        <% link_to data.projects[5].github, target: '_blank' do %>
+                      <% if data.projects[2].code? %>
+                        <% link_to data.projects[2].github, target: '_blank' do %>
                           <i class="fa-brands fa-github project-link"></i>
                         <% end %>
                       <% end %>
-                      <% if data.projects[5].online? %>
-                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                      <% if data.projects[2].online? %>
+                        <% link_to data.projects[2].url, class: 'globe', target: '_blank' do %>
                           <i class="fa-solid fa-globe project-link"></i>
                         <% end %>
                       <% end %>
@@ -46,8 +67,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/uq/uq_home.png' %>
-          <!--<img src="images/skill.jpg" alt="skill">-->
+          <%= image_tag 'projects/aimessenger/Spirit-Mockup.webp' %>
         </div>
     </div>
   </div>
@@ -57,14 +77,14 @@
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
-        <span><%= image_tag 'projects/uq/lessons.png' %></span>
-        <span><%= image_tag 'projects/uq/students.png' %></span>
-        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-Hero.webp' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-Gallery1.webp' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-About.webp' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
-        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
-        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-Gallery2.webp' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-Menu.webp' %></span>
+        <span><%= image_tag 'projects/aimessenger/Spirit-Gallery3.webp' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>

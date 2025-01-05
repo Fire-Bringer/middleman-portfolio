@@ -5,15 +5,17 @@
   mockup: projects/gravityroom/Gravity-Mockup.webp
   url: https://gravity-room.netlify.app
   github: https://github.com/Fire-Bringer/gravity-room
-  online: true
-  features: true
   code: true
+  online: true
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
-  figma: true
   info: https://rashaddupaty.netlify.app/gravityroom
 
 - name: Avaphotography
@@ -23,15 +25,17 @@
   mockup: projects/avaphotography/photo_mockup.webp
   url: https://avaphotography.netlify.app
   github: https://github.com/Fire-Bringer/photography-template
-  online: true
-  features: false
   code: true
+  online: true
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: false
-  figma: true
   info: https://rashaddupaty.netlify.app/avaphotography
 
 - name: Ai Messenger Session
@@ -41,15 +45,17 @@
   mockup: projects/aimessenger/Spirit-Mockup.webp
   url: https://aicupidoflove.netlify.app
   github: https://github.com/Fire-Bringer/ai-messenger-session-lp
-  online: false
-  features: false
-  code: false
+  code: true
+  online: true
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
-  figma: true
   info: https://rashaddupaty.netlify.app/aimessenger
 
 - name: Cafe Koharu
@@ -59,15 +65,17 @@
   mockup: projects/cafekoharu/koharu_mockup3.webp
   url: https://cafekoharu.netlify.app
   github: https://github.com/Fire-Bringer/cafe-koharu-landing-page
-  online: true
-  features: false
   code: true
+  online: true
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
-  figma: true
   info: https://rashaddupaty.netlify.app/cafekoharu
 
 - name: Vinyl Cafe
@@ -77,15 +85,17 @@
   mockup: projects/vinylcafe/vinyl_mockup.webp
   url: https://vinylcafe.netlify.app
   github: https://github.com/Fire-Bringer/melting-pot-cafe-website
-  online: true
-  features: false
   code: true
+  online: true
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
-  figma: true
   info: https://rashaddupaty.netlify.app/vinylcafe
 
 - name: NippoNavi
@@ -95,13 +105,15 @@
   mockup: projects/nipponavi/nipponavi-mockup.webp
   url: https://www.uqedu.org
   github: https://github.com/Kitakits-tentative/kitakits-app
-  online: false
-  features: true
   code: true
+  online: false
+  figma: true
+  photoshop: true
+  react: false
+  nextjs: false
+  typescript: false
   rails: true
   html: true
   css: true
   javascript: true
-  sql: true
-  figma: true
   info: https://rashaddupaty.netlify.app/uq

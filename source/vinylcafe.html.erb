@@ -9,35 +9,56 @@
                     <h1>Vinyl Cafe</h1>
                     <p>
                       A landing page made for a medium-sized vinyl music cafe within Kanazawa in mind. The cafe features a prominence of classic American hip-hop which is reflected within the introductory animation.
+                      <br><br>
+                      FEATURES:
+                      <br>
+                      - an introductory animation which features 20 different vinyl cover arts
+                      <br>
+                      - a hero slider which transition fades automatically between 5 images
+                      <br>
+                      - an about section which has an automatically playing video on mute
+                      <br>
+                      - a menu section which is displayed through an animation on scroll
+                      <br>
+                      - an Instagram widget and footer
                     </p>
                     <div class="tech-stack">
-                      <% if data.projects[5].rails? %>
+                      <% if data.projects[4].figma? %>
+                        <i class="devicon-figma-plain tech"></i>
+                      <% end %>
+                      <% if data.projects[4].photoshop? %>
+                        <i class="devicon-photoshop-plain"></i>
+                      <% end %>
+                      <% if data.projects[4].react? %>
+                        <i class="devicon-react-original"></i>
+                      <% end %>
+                      <% if data.projects[4].nextjs? %>
+                        <i class="devicon-nextjs-plain"></i>
+                      <% end %>
+                      <% if data.projects[4].typescript? %>
+                        <i class="devicon-typescript-plain"></i>
+                      <% end %>
+                      <% if data.projects[4].rails? %>
                         <i class="devicon-rails-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].html? %>
+                      <% if data.projects[4].html? %>
                         <i class="devicon-html5-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].css? %>
+                      <% if data.projects[4].css? %>
                         <i class="devicon-css3-plain-wordmark tech"></i>
                       <% end %>
-                      <% if data.projects[5].javascript? %>
+                      <% if data.projects[4].javascript? %>
                         <i class="devicon-javascript-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].sql? %>
-                        <i class="devicon-azuresqldatabase-plain tech"></i>
-                      <% end %>
-                      <% if data.projects[5].figma? %>
-                        <i class="devicon-figma-plain tech"></i>
                       <% end %>
                     </div>
                     <div class="project-links">
-                      <% if data.projects[5].code? %>
-                        <% link_to data.projects[5].github, target: '_blank' do %>
+                      <% if data.projects[4].code? %>
+                        <% link_to data.projects[4].github, target: '_blank' do %>
                           <i class="fa-brands fa-github project-link"></i>
                         <% end %>
                       <% end %>
-                      <% if data.projects[5].online? %>
-                        <% link_to data.projects[5].url, class: 'globe', target: '_blank' do %>
+                      <% if data.projects[4].online? %>
+                        <% link_to data.projects[4].url, class: 'globe', target: '_blank' do %>
                           <i class="fa-solid fa-globe project-link"></i>
                         <% end %>
                       <% end %>
@@ -46,8 +67,7 @@
             </div>
         </div>
         <div class="img">
-          <%= image_tag 'projects/uq/uq_home.png' %>
-          <!--<img src="images/skill.jpg" alt="skill">-->
+          <%= image_tag 'projects/vinylcafe/vinyl_mockup.webp' %>
         </div>
     </div>
   </div>
@@ -57,14 +77,13 @@
   <i class="fa-solid fa-circle-chevron-left info-arrow" id="backBtn"></i>
     <div class="gallery">
       <div>
-        <span><%= image_tag 'projects/uq/lessons.png' %></span>
-        <span><%= image_tag 'projects/uq/students.png' %></span>
-        <span><%= image_tag 'projects/uq/results_chart.png' %></span>
+        <span><%= image_tag 'projects/vinylcafe/Vinyl-Intro.webp' %></span>
+        <span><%= image_tag 'projects/vinylcafe/Vinyl-Hero.webp' %></span>
+        <span><%= image_tag 'projects/vinylcafe/Vinyl-About.webp' %></span>
       </div>
       <div>
-        <span><%= image_tag 'projects/uq/uq_chat.png' %></span>
-        <span><%= image_tag 'projects/uq/student_progress.png' %></span>
-        <span><%= image_tag 'projects/uq/todo_students.png' %></span>
+        <span><%= image_tag 'projects/vinylcafe/Vinyl-Menu.webp' %></span>
+        <span><%= image_tag 'projects/vinylcafe/Vinyl-IG-Widget.webp' %></span>
       </div>
     </div>
   <i class="fa-solid fa-circle-chevron-right info-arrow" id="nextBtn"></i>
