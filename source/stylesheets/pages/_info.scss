@@ -131,6 +131,12 @@
   position: relative;
 }
 
+.figma-prototype{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1440px) and (orientation: portrait){
   .info {
     height: 40vh;
@@ -340,6 +346,9 @@
 @media (max-width: 435px) and (orientation: portrait){
   .odd-info-container, .even-info-container {
     height: 50vh;
+  }
+  .figma-wrap{
+    display: none;
   }
 }
 
